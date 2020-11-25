@@ -18,7 +18,6 @@ Rodnost v Sloveniji oz. število živorojenih otrok bom analizirala glede na:
 * regijo oz. občino
 * dan oz. mesec rojstva
 * starost in izobrazbo matere ter vrstni red rojstva
-* starost matere in spol otroka
 * zakonsko oz. zunajzakonsko zvezo med staršema
     
 Z državami članicami Evrope pa bom kasneje primerjala le samo število rojstev živorojenih otrok (za obdobje vsaj 10 let).
@@ -29,7 +28,7 @@ Tu bom navedla:
     
 #### Cilji: 
 
-V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v posameznih regijah, katera regija jih je imela največ v vsakem letu in kakšno je povprečje v obravnavanem obdobju. Navedla bom tudi občine, kjer je bila v teh letih rodnost največja oz. najmanjša. Ugotovila bom, katerega rojstva je bilo v posamezni regiji največ (prvega, drugega, tretjega, ...). Prav tako bom ugotavljala, katerega meseca je bilo v posameznih letih rojenih največ otrok in kako je s tem v povprečju v obravnavanem obdobju. Izpostavila bom, kateri so tisti dnevi, ko je bilo rojenih največ otrok. Zanimalo me bo tudi, kakšna je starost in izobrazba mater v povezavi z vrstnim redom rojstva ter nato še s spolom otroka. Zanimalo me bo tudi, koliko otrok je bil rojenih v zakonski oziroma zunajzakonski zvezi med staršema. Na koncu pa bom samo število živorojenih rojstev v Sloveniji primerjala s številom le-teh v ostalih državah članicah EU in na ta način ugotovila, v kateri državi je bilo največ rojstev ter izračunala, kakšno je bilo maksimalno, minimalno in povprečno število rojstev po državah v zadnjem desetjetju.
+V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v posameznih regijah, katera regija jih je imela največ v vsakem letu in kakšno je povprečje v obravnavanem obdobju. Navedla bom tudi občine, kjer je bila v teh letih rodnost največja oz. najmanjša. Ugotovila bom, katerega rojstva je bilo v posamezni regiji največ (prvega, drugega, tretjega, ...). Prav tako bom ugotavljala, katerega meseca je bilo v posameznih letih rojenih največ otrok in kako je s tem v povprečju v obravnavanem obdobju. Izpostavila bom, kateri so tisti dnevi, ko je bilo rojenih največ otrok. Zanimalo me bo tudi, kakšna je starost in izobrazba mater v povezavi z vrstnim redom rojstva. Zanimalo me bo tudi, koliko otrok je bil rojenih v zakonski oziroma zunajzakonski zvezi med staršema. Na koncu pa bom samo število živorojenih rojstev v Sloveniji primerjala s številom le-teh v ostalih državah članicah EU in na ta način ugotovila, v kateri državi je bilo največ rojstev ter izračunala, kakšno je bilo maksimalno, minimalno in povprečno število rojstev po državah v zadnjem desetjetju.
 
 #### Podatki: 
 
