@@ -7,7 +7,7 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2020/21
 
 ## Tematika
 
-# Analiza rodnosti v Sloveniji in primerjava z državami EU
+### Analiza rodnosti v Sloveniji in primerjava z državami EU
 
 * predstavitev teme: Odločila sem se, da bom analizirala rodnost v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih nekaj let bom za različne spremenjivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z vsemi državami članicami EU.
 
