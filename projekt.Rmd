@@ -24,17 +24,19 @@ source("lib/rstudio.r", encoding="UTF-8")
 
 # Izbira teme
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
-
-![](slike/grb.png)
-
-***
+Analizirala bom rodnost oziroma število živorojenih otrok v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih nekaj let bom za različne spremenjivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z vsemi državami članicami EU.
 
 # Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz}
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
+
+Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu. Večina jih je v obliki CSV, ena pa v obliki HTML. Podatki so shranjeni v šestih tabelah.
+
+1. `Število rojenih v državah EU` - podatki o številu rojstev za vsako državo EU
+  - `država` - spremenljivka: ime države (faktor),
+  - `leto` - spremenljivka: leto v obdobju 2009-2018
 
 Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
 z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.
