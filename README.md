@@ -11,7 +11,7 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2020/21
 
 #### Predstavitev teme: 
 
-Odločila sem se, da bom analizirala rodnost v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih nekaj let bom za različne spremenjivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z vsemi državami članicami EU.
+Odločila sem se, da bom analizirala rodnost v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih nekaj let bom za različne spremenljivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z vsemi državami članicami EU.
 
 Rodnost v Sloveniji oz. število živorojenih otrok bom analizirala glede na:
 
@@ -26,16 +26,24 @@ Tu bom navedla:
 * državo
 * število živorojenih otrok v določenem letu
     
+    
 #### Cilji: 
 
 V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v posameznih regijah, katera regija jih je imela največ v vsakem letu in kakšno je povprečje v obravnavanem obdobju. Prav tako bom ugotavljala, katerega meseca je bilo v posameznih letih rojenih največ otrok in kako je s tem v povprečju v obravnavanem obdobju. Izpostavila bom, kateri so tisti dnevi, ko je bilo rojenih največ otrok. Zanimalo me bo tudi, kakšna je starost in izobrazba mater v povezavi z vrstnim redom rojstva. Zanimalo me bo tudi, koliko otrok je bil rojenih v zakonski oziroma zunajzakonski zvezi med staršema. Na koncu pa bom samo število živorojenih rojstev v Sloveniji primerjala s številom le-teh v ostalih državah članicah EU in na ta način ugotovila, v kateri državi je bilo največ rojstev ter izračunala, kakšno je bilo maksimalno, minimalno in povprečno število rojstev po državah v zadnjem desetjetju.
+
 
 #### Podatki: 
 
 Podatke bom iz naslednjih spletnih strani izvozila v različnih formatih.
 
-* https://pxweb.stat.si/sistat/Podrocja/Index/100/prebivalstvo
+* [EU(2009-2018)](https://ec.europa.eu/eurostat/databrowser/view/DEMO_FMONTH__custom_270818/default/table?lang=en)
+* [SLO-regije](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2008S.px/table/tableViewLayout2/)
+* [SLO-meseci](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1030S.px/table/tableViewLayout2/)
+* [SLO-dnevi](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1031S.px/table/tableViewLayout2/)
+* [SLO-matere](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px/table/tableViewLayout2/)
+* [SLO-zveza](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1018S.px/table/tableViewLayout2/)
 * https://ec.europa.eu/eurostat/data/database
+    
     
 ## Program
 
