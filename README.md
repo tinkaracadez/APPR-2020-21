@@ -36,13 +36,12 @@ V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v po
 
 Podatke bom iz naslednjih spletnih strani izvozila v različnih formatih.
 
-* [EU(2009-2018)](https://ec.europa.eu/eurostat/databrowser/view/DEMO_FMONTH__custom_270818/default/table?lang=en)
+* [EU (2009-2018)](https://ec.europa.eu/eurostat/databrowser/view/DEMO_FMONTH__custom_270818/default/table?lang=en)
 * [SLO-regije](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2008S.px/table/tableViewLayout2/)
 * [SLO-meseci](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1030S.px/table/tableViewLayout2/)
 * [SLO-dnevi](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1031S.px/table/tableViewLayout2/)
 * [SLO-matere](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px/table/tableViewLayout2/)
 * [SLO-zveza](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1018S.px/table/tableViewLayout2/)
-* https://ec.europa.eu/eurostat/data/database
     
     
 ## Program
