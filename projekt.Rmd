@@ -36,28 +36,53 @@ Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu
 
 1. `Število rojenih v državah EU` - podatki o številu rojstev za vsako državo EU
   - `država` - spremenljivka: ime države (faktor),
-  - `leto` - spremenljivka: leto v obdobju 2009-2018
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
+  - `rojeni` - meritev: število živorojenih otrok v posamezni državi (število).
+  
+Tabela ni v obliki *tidy data*.
 
-Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
-z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.
+2. `St_rojenih_SLO_meseci` - podatki o številu rojstev za posamezne mesece v obdobju 2014-2018
+  - `mesec` - spremenljivka: ime meseca (faktor),
+  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen mesec določenega leta (število).
+  
+Tabela ni v obliki *tidy data*.
 
-1. `druzine` - podatki o družinah za vsako občino
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `velikost.druzine` - spremenljivka: število otrok v družini (število: 1, 2, 3 ali 4, kjer zadnja vrednost pomeni 4 ali več),
-  - `stevilo.druzin` - meritev: število družin z ustreznim številom otrok v ustrezni občini (število).
+3. `St_rojenih_SLO_dnevi` - podatki o številu rojstev za posamezne dneve v mesecih v obdobju 2014-2018
+  - `mesec` - spremenljivka: ime meseca za leta 2014-2018 (faktor),
+  - `dan` - spremenljivka: dan v mesecu (število),
+  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen dan določenega meseca v letih 2014-2018 (število).
+  
+Tabela ni v obliki *tidy data*.
 
-2. `obcine` - podatki o občinah
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `povrsina` - meritev: površina občine v km$^2$ (število),
-  - `prebivalci` - meritev: prebivalstvo občine (število),
-  - `gostota` - meritev: število prebivalcev na km$^2$ (število),
-  - `naselja` - meritev: število naselij v občini (število),
-  - `ustanovitev` - meritev: leto ustanovitve občine (število),
-  - `pokrajina` - meritev: pokrajina, ki ji občina pripada (neurejen faktor),
-  - `regija` - meritev: regija, ki ji občina pripada (neurejen faktor),
-  - `odcepitev` - meritev: podatki o občinah, od katerih se je občina odcepila (besedilo).
+4. `St_rojenih_SLO_obcine` - podatki o številu rojstev v statističnih regijah med letoma 2014 in 2018
+  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `regija` - spremenljivka: ime statistične regije (faktor),
+  - `rojeni` - meritev: število živorojenih otrok v statistični regije v določenem letu (število).
+  
+Tabela je v formatu HTML in ni v obliki *tidy data*.
 
-**Opomba**: da bi razpredelnica `obcine` res bila v obliki *tidy data*, bi morali odstraniti stolpec `gostota` (saj je izpeljan iz stolpcev `povrsina` in `prebivalci`), podatke o pokrajinah pa bi morali premakniti v drugo razpredelnico, saj nekatere občine pripadajo dvema pokrajinama. Podobno bi morali narediti tudi s stolpcem `odcepitev`.
+5. `St_rojenih_SLO_matere` - podatki o številu rojstev med letoma 2014 in 2018 glede na starost in izobrazbo matere ter vrstni red rojstva
+  - `starost` - spremenljivka: starostna skupina matere (faktor),
+  - `izobrazba` - spremenljivka: stopnja izobrazbe matere (faktor),
+  - `rojstvo` - spremenljivka: vrstni red rojstva (faktor),
+  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `rojeni` - meritev: št živorojenih otrok glede na spremenljivke (število).
+  
+Tabela ni v obliki *tidy data*.
+
+6. `St_rojenih_SLO_zveza` - podatki o številu rojstev med letoma 2014 in 2018 glede na zakonsko zvezo med staršema
+  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `starost` - spremenljivka: starostna skupina matere (faktor),
+  - `rojstvo` - spremenljivka: vrstni red rojstva (faktor),
+  - `zveza` - spremenljivka: zveza med staršema - zakonska/zunajzakonska (faktor),
+  - `rojeni` - meritev: št živorojenih otrok glede na spremenljivke (število).
+  
+Tabela ni v obliki *tidy data*.
+
+**Opomba**: da bodo razpredelnice v obliki *tidy data*, bom morala odstraniti nekatere spremenljivke, ki niso bistvene za moj problem.
+
+***
 
 Spodnji graf prikazuje porazdelitev števila naselij v občinah.
 
