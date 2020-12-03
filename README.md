@@ -7,11 +7,11 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2020/21
 
 ## Tematika
 
-### Analiza rodnosti v Sloveniji in primerjava z državami EU
+### Analiza rodnosti v Sloveniji in primerjava z evropskimi državami
 
 #### Predstavitev teme: 
 
-Odločila sem se, da bom analizirala rodnost v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih nekaj let bom za različne spremenljivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z vsemi državami članicami EU.
+Odločila sem se, da bom analizirala rodnost v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnje desetletje bom za različne spremenljivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za isto časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z ostalimi evropskimi državami.
 
 Rodnost v Sloveniji oz. število živorojenih otrok bom analizirala glede na:
 
@@ -20,7 +20,7 @@ Rodnost v Sloveniji oz. število živorojenih otrok bom analizirala glede na:
 * starost in izobrazbo matere ter vrstni red rojstva
 * zakonsko oz. zunajzakonsko zvezo med staršema
     
-Z državami članicami Evrope pa bom kasneje primerjala le samo število rojstev živorojenih otrok (za obdobje vsaj 10 let).
+Z evropskimi državami pa bom kasneje primerjala le samo število rojstev živorojenih otrok (za obdobje 10 let).
 Tu bom navedla:
 
 * državo
