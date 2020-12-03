@@ -43,20 +43,20 @@ Tabela ni v obliki *tidy data*.
 
 2. `St_rojenih_SLO_meseci` - podatki o številu rojstev za posamezne mesece v obdobju 2014-2018
   - `mesec` - spremenljivka: ime meseca (faktor),
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
   - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen mesec določenega leta (število).
   
 Tabela ni v obliki *tidy data*.
 
 3. `St_rojenih_SLO_dnevi` - podatki o številu rojstev za posamezne dneve v mesecih v obdobju 2014-2018
-  - `mesec` - spremenljivka: ime meseca za leta 2014-2018 (faktor),
+  - `mesec` - spremenljivka: ime meseca za leta 2009-2018 (faktor),
   - `dan` - spremenljivka: dan v mesecu (število),
   - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen dan določenega meseca v letih 2014-2018 (število).
   
 Tabela ni v obliki *tidy data*.
 
 4. `St_rojenih_SLO_obcine` - podatki o številu rojstev v statističnih regijah med letoma 2014 in 2018
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
   - `regija` - spremenljivka: ime statistične regije (faktor),
   - `rojeni` - meritev: število živorojenih otrok v statistični regije v določenem letu (število).
   
@@ -66,13 +66,13 @@ Tabela je v formatu HTML in ni v obliki *tidy data*.
   - `starost` - spremenljivka: starostna skupina matere (faktor),
   - `izobrazba` - spremenljivka: stopnja izobrazbe matere (faktor),
   - `rojstvo` - spremenljivka: vrstni red rojstva (faktor),
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
   - `rojeni` - meritev: št živorojenih otrok glede na spremenljivke (število).
   
 Tabela ni v obliki *tidy data*.
 
 6. `St_rojenih_SLO_zveza` - podatki o številu rojstev med letoma 2014 in 2018 glede na zakonsko zvezo med staršema
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
   - `starost` - spremenljivka: starostna skupina matere (faktor),
   - `rojstvo` - spremenljivka: vrstni red rojstva (faktor),
   - `zveza` - spremenljivka: zveza med staršema - zakonska/zunajzakonska (faktor),
