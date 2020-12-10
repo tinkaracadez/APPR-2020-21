@@ -24,111 +24,99 @@ source("lib/rstudio.r", encoding="UTF-8")
 
 # Izbira teme
 
-Analizirala bom rodnost oziroma število živorojenih otrok v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih nekaj let bom za različne spremenjivke natančneje analizirala število živorojenih otrok v Sloveniji, nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z vsemi državami članicami EU.
+Analizirala bom rodnost oziroma število živorojenih otrok v Sloveniji in jo primerjava z ostalimi državami EU. Za zadnjih 10 let bom za različne spremenjivke natančneje analizirala število živorojenih otrok v Sloveniji (osredotočila se bom predvsem na rojstva glede na regije, mesec in dan rojstva), nato pa za širše časovno obdobje primerjala samo število rojstev v Sloveniji v primerjavi z evropskimi državami.
 
 # Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz}
-source("uvoz/uvoz.r", encoding="UTF-8")
+source("uvoz/uvoz.R", encoding="UTF-8")
 ```
 
-Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu. Večina jih je v obliki CSV, ena pa v obliki HTML. Podatki so shranjeni v šestih tabelah.
+Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu. Večina jih je v obliki CSV, ena pa v obliki HTML. Urejeni podatki so shranjeni v štirih tabelah.
 
-1. `Število rojenih v državah EU` - podatki o številu rojstev za vsako državo EU
-  - `država` - spremenljivka: ime države (faktor),
+1. `evropa` - podatki o številu rojstev za evropske države
+  - `drzava` - spremenljivka: ime države (niz),
   - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
   - `rojeni` - meritev: število živorojenih otrok v posamezni državi (število).
   
-Tabela ni v obliki *tidy data*.
-
-2. `St_rojenih_SLO_meseci` - podatki o številu rojstev za posamezne mesece v obdobju 2014-2018
-  - `mesec` - spremenljivka: ime meseca (faktor),
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
-  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen mesec določenega leta (število).
+Prvi graf podaja osnovni pogled v število živorojenih otrok v evropskih državah za obravnavano obdobje (ponekod so vidne luknje, saj podatki niso bili na voljo).
   
-Tabela ni v obliki *tidy data*.
-
-3. `St_rojenih_SLO_dnevi` - podatki o številu rojstev za posamezne dneve v mesecih v obdobju 2014-2018
-  - `mesec` - spremenljivka: ime meseca za leta 2014-2018 (faktor),
-  - `dan` - spremenljivka: dan v mesecu (število),
-  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen dan določenega meseca v letih 2014-2018 (število).
-  
-Tabela ni v obliki *tidy data*.
-
-4. `St_rojenih_SLO_obcine` - podatki o številu rojstev v statističnih regijah med letoma 2014 in 2018
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
-  - `regija` - spremenljivka: ime statistične regije (faktor),
-  - `rojeni` - meritev: število živorojenih otrok v statistični regije v določenem letu (število).
-  
-Tabela je v formatu HTML in ni v obliki *tidy data*.
-
-5. `St_rojenih_SLO_matere` - podatki o številu rojstev med letoma 2014 in 2018 glede na starost in izobrazbo matere ter vrstni red rojstva
-  - `starost` - spremenljivka: starostna skupina matere (faktor),
-  - `izobrazba` - spremenljivka: stopnja izobrazbe matere (faktor),
-  - `rojstvo` - spremenljivka: vrstni red rojstva (faktor),
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
-  - `rojeni` - meritev: št živorojenih otrok glede na spremenljivke (število).
-  
-Tabela ni v obliki *tidy data*.
-
-6. `St_rojenih_SLO_zveza` - podatki o številu rojstev med letoma 2014 in 2018 glede na zakonsko zvezo med staršema
-  - `leto` - spremenljivka: leto v obdobju 2014-2018 (število),
-  - `starost` - spremenljivka: starostna skupina matere (faktor),
-  - `rojstvo` - spremenljivka: vrstni red rojstva (faktor),
-  - `zveza` - spremenljivka: zveza med staršema - zakonska/zunajzakonska (faktor),
-  - `rojeni` - meritev: št živorojenih otrok glede na spremenljivke (število).
-  
-Tabela ni v obliki *tidy data*.
-
-**Opomba**: da bodo razpredelnice v obliki *tidy data*, bom morala odstraniti nekatere spremenljivke, ki niso bistvene za moj problem.
-
-***
-
-Spodnji graf prikazuje porazdelitev števila naselij v občinah.
-
-```{r histogram, fig.align='center', fig.cap='Histogram števila naselij v občinah'}
-ggplot(obcine, aes(x=naselja)) + geom_histogram() +
-  ggtitle("Pogostost števila naselij") + xlab("Število naselij") + ylab("Število občin")
+```{r graf3, fig.align='center'}
+evropa %>%
+  ggplot(aes(x=leto, y=rojeni, group=drzava, color=drzava)) +
+  geom_point() +
+  ggtitle("Število živorojenih otrok v evropskih državah med letoma 2009 in 2018") +
+  xlab("leto") +
+  ylab("število živorojenih otrok")
 ```
+
+Sledi malo lepši prikaz, a le za leto 2018.
+
+```{r graf4, fig.align='center'}
+evropa %>%
+  filter(leto==2018) %>%
+  ggplot(aes(x=rojeni, y=drzava)) +
+  geom_bar(stat="identity") +
+  ggtitle("Število živorojenih otrok v evropskih državah leta 2018") +
+  xlab("število živorojenih otrok") +
+  ylab("država")
+```
+
+**Ugotovitve**: Tu so podatki predstavljeni zelo nepregledno (zaradi velikega števila le-teh). V nadaljevanju bom poiskala čimboljši način za vizualizacijo tovrstnih podatkov.
+
+2. `meseci` - podatki o številu živorojenih otrok po mesecih v obdobju 2009-2018 za Slovenijo
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
+  - `mesec` - spremenljivka: ime meseca (niz),
+  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen mesec določenega leta (število).
+
+3. `dnevi` - podatki o številu živorojenih otrok po dnevih v mesecih v obdobju 2014-2018 za Slovenijo
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
+  - `mesec` - spremenljivka: zaporedna številka meseca (število),
+  - `dan` - spremenljivka: dan v mesecu (število),
+  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen dan določenega meseca v letih 2009-2018 (število).
+  
+4. `regije` - podatki o številu živorojenih otrok po statističnih regijah med letoma 2009 in 2018 za Slovenijo
+  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
+  - `regija` - spremenljivka: ime statistične regije (niz),
+  - `rojeni` - meritev: število živorojenih otrok v statistični regiji v določenem letu (število).
+
+V naslednjem grafu je po letih prikazano število živorojenih otrok v statističnih regijah Slovenije.
+
+```{r graf1, fig.align='center'}
+regije %>%
+  ggplot(aes(x=leto, y=rojeni, fill=regija)) +
+  geom_bar(stat="identity", position=position_dodge(width=0.5)) + 
+  ggtitle("Število živorojenih otrok po statističnih regijah med letoma 2009 in 2018") +
+  xlab("leto") +
+  ylab("število živorojenih otrok") +
+  labs(fill="Statistična regija") +
+  scale_fill_brewer(palette="Set3")
+```
+
+Sledi še mnogo bolj pregleden graf, ki prikazuje enake podatke, a le za leto 2018.
+
+```{r graf2, fig.align='center'}
+regije %>%
+  filter(leto==2018) %>%
+  ggplot(aes(x=rojeni, y=regija)) +
+  geom_bar(stat="identity") +
+  ggtitle("Število živorojenih otrok po statističnih regijah leta 2018") +
+  ylab("statistična regija") +
+  xlab("število živorojenih otrok")
+```
+
+**Ugotovitve**: Tako veliko količino podatkov je težko prikazati na razumljiv in pregleden način. Ugotoviti moram še, kako bolje "nadzorovati" vrednosti, ki so izpisane na posameznih oseh. Trenutni grafi služijo bolj osnovnemu pregledu.
+
+
+
+
 
 ***
 
 # Analiza in vizualizacija podatkov
 
-```{r vizualizacija, results='hide'}
-source("vizualizacija/vizualizacija.r", encoding="UTF-8")
-```
-
-Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino.
-
-```{r zemljevid, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
-tm_shape(merge(zemljevid, povprecja, by.x="OB_UIME", by.y="obcina")) +
-  tm_polygons("povprecje", title="Povprečje") +
-  tm_layout(title="Povprečno število otrok v družini")
-```
-
 ***
 
 # Napredna analiza podatkov
 
-```{r analiza}
-source("analiza/analiza.r", encoding="UTF-8")
-```
-
-Spodnji graf prikazuje povezavo med številom naselij in površino občine.
-
-```{r graf, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
-ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
-                                     skupina=factor(skupine)), by="obcina")
-, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
-  ggtitle("Število naselij glede na površino občine") +
-  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
-  guides(color=guide_legend(title="Skupina"),
-         size=guide_legend(title="Prebivalci (* 1000)"))
-```
-
 ***
-
-```{r shiny}
-shinyAppDir("shiny", options=list(width="100%", height=600))
-```
