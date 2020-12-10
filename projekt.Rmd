@@ -41,6 +41,15 @@ Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu
   
 Prvi graf podaja osnovni pogled v število živorojenih otrok v evropskih državah za obravnavano obdobje (ponekod so vidne luknje, saj podatki niso bili na voljo).
 
+```{r graf3, fig.align='center'}
+evropa %>%
+  ggplot(aes(x=leto, y=rojeni, group=drzava, color=drzava)) +
+  geom_point() +
+  ggtitle("Število živorojenih otrok v evropskih državah med letoma 2009 in 2018") +
+  xlab("leto") +
+  ylab("število živorojenih otrok")
+```
+
 Sledi malo lepši prikaz, a le za leto 2018.
 
 ```{r graf4, fig.align='center'}
