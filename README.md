@@ -25,16 +25,20 @@ Tu bom navedla:
 * državo
 * število živorojenih otrok v določenem letu
     
+    
 #### Cilji: 
 
 V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v posameznih regijah, katera regija jih je imela največ v vsakem letu in kakšno je povprečje v obravnavanem obdobju. Prav tako bom ugotavljala, katerega meseca je bilo v posameznih letih rojenih največ otrok in kako je s tem v povprečju v obravnavanem obdobju. Izpostavila bom, kateri so tisti dnevi, ko je bilo rojenih največ otrok. Na koncu pa bom samo število živorojenih otrok v Sloveniji primerjala s številom le-teh v ostalih evropskih državah in na ta način ugotovila, v kateri državi je bilo največ rojstev ter izračunala, kakšno je bilo maksimalno, minimalno in povprečno število rojstev po državah v zadnjem desetjetju.
+
 
 #### Podatki: 
 
 Podatke bom iz naslednjih spletnih strani izvozila v različnih formatih(HTML in CSV).
 
-* https://pxweb.stat.si/sistat/Podrocja/Index/100/prebivalstvo
-* https://ec.europa.eu/eurostat/data/database
+* [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/DEMO_FMONTH__custom_270818/default/table?lang=en)
+* [Statistični urad Republike Slovenije](https://pxweb.stat.si/sistat/Podrocja/Index/100/prebivalstvo)
+
+    
     
 ## Program
 
