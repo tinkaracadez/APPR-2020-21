@@ -1,55 +1,87 @@
-# 2. faza: Uvoz podatkov
+require(readr)
+require(dplyr)
+require(tidyr)
+require(readxl)
+require(openxlsx)
+require(rvest)
+require(stringr)
 
-sl <- locale("sl", decimal_mark=",", grouping_mark=".")
+# urejena tabela za rojene po mesecih
+meseci <- read_csv2("podatki/St_rojenih_SLO_meseci.csv",
+                  locale=locale(encoding="cp1250")) %>%
+  rename(leto=LETO, mesec="MESEC ROJSTVA", rojeni="Živorojeni")
 
-# Funkcija, ki uvozi občine iz Wikipedije
-uvozi.obcine <- function() {
-  link <- "http://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji"
-  stran <- html_session(link) %>% read_html()
-  tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>%
-    .[[1]] %>% html_table(dec=",")
-  for (i in 1:ncol(tabela)) {
-    if (is.character(tabela[[i]])) {
-      Encoding(tabela[[i]]) <- "UTF-8"
-    }
-  }
-  colnames(tabela) <- c("obcina", "povrsina", "prebivalci", "gostota", "naselja",
-                        "ustanovitev", "pokrajina", "regija", "odcepitev")
-  tabela$obcina <- gsub("Slovenskih", "Slov.", tabela$obcina)
-  tabela$obcina[tabela$obcina == "Kanal ob Soči"] <- "Kanal"
-  tabela$obcina[tabela$obcina == "Loški potok"] <- "Loški Potok"
-  for (col in c("povrsina", "prebivalci", "gostota", "naselja", "ustanovitev")) {
-    if (is.character(tabela[[col]])) {
-      tabela[[col]] <- parse_number(tabela[[col]], na="-", locale=sl)
-    }
-  }
-  for (col in c("obcina", "pokrajina", "regija")) {
-    tabela[[col]] <- factor(tabela[[col]])
-  }
-  return(tabela)
-}
+# urejena tabela za rojene po dnevih
+dnevi <- read_csv2("podatki/St_rojenih_SLO_dnevi.csv",
+                   locale=locale(encoding="cp1250"),
+                   na=c("", " ", "-")) %>%
+  rename(mesec=MESEC, dan="DAN V MESECU", rojeni="Živorojeni") %>%
+  drop_na(rojeni) %>%
+  mutate(
+    leto=mesec
+  ) %>%
+  .[c(4,1,2,3)] %>%
+  mutate(
+    leto=str_replace(leto, "M\\d{2}", ""),
+    mesec=str_replace(mesec, "\\d{4}M", ""),
+    mesec=str_replace(mesec, "^0", ""),
+    leto=as.numeric(leto),
+    mesec=as.numeric(mesec)
+  ) 
 
-# Funkcija, ki uvozi podatke iz datoteke druzine.csv
-uvozi.druzine <- function(obcine) {
-  data <- read_csv2("podatki/druzine.csv", col_names=c("obcina", 1:4),
-                    locale=locale(encoding="Windows-1250"))
-  data$obcina <- data$obcina %>% strapplyc("^([^/]*)") %>% unlist() %>%
-    strapplyc("([^ ]+)") %>% sapply(paste, collapse=" ") %>% unlist()
-  data$obcina[data$obcina == "Sveti Jurij"] <- iconv("Sveti Jurij ob Ščavnici", to="UTF-8")
-  data <- data %>% pivot_longer(`1`:`4`, names_to="velikost.druzine", values_to="stevilo.druzin")
-  data$velikost.druzine <- parse_number(data$velikost.druzine)
-  data$obcina <- parse_factor(data$obcina, levels=obcine)
-  return(data)
-}
+# tabela za rojene po regijah (HTML)
+stran <- read_html("podatki/St_rojenih_SLO_regije.htm",
+                   locale=locale(encoding="cp1250"))
+regije <- stran %>% 
+  html_nodes(xpath="//table") %>%
+  .[[1]] %>%
+  html_table(fill=TRUE) %>%
+  rename(
+    leto=3,
+    regija=1,
+    rojeni=2
+  ) %>%
+  .[c(3,1,2)] %>%
+  mutate(
+    leto=regija,
+    leto=gsub("^\\D", NA, leto),
+    rojeni=gsub("[a-z]", NA, rojeni)
+    ) %>%
+  fill(leto) %>%
+  drop_na(rojeni) %>%
+  drop_na(regija)
+   
+# urejena tabela za rojene v evropskih državah (Excel)
+evropa <- read_xlsx("podatki/St_rojenih_EU.xlsx",
+                    sheet="Sheet 1",
+                    skip=9,
+                    n_max=48,
+                    na=c("", " ", ":")) %>%
+  select(-"...3", -"...5", -"...7", -"...9", -"...11", -"...13", -"...15", -"...17", -"...19", -"...21") %>%
+  rename(
+    drzava=1,
+    "2009"="...2",
+    "2010"="...4",
+    "2011"="...6",
+    "2012"="...8",
+    "2013"="...10",
+    "2014"="...12",
+    "2015"="...14",
+    "2016"="...16",
+    "2017"="...18",
+    "2018"="...20"
+    ) %>%
+  mutate(
+    drzava=str_replace(drzava, "\\(.*\\)", "")
+  ) %>%
+  pivot_longer(
+    c(-drzava),
+    names_to="leto",
+    values_to="rojeni"
+  )
 
-# Zapišimo podatke v razpredelnico obcine
-obcine <- uvozi.obcine()
-
-# Zapišimo podatke v razpredelnico druzine.
-druzine <- uvozi.druzine(levels(obcine$obcina))
-
-# Če bi imeli več funkcij za uvoz in nekaterih npr. še ne bi
-# potrebovali v 3. fazi, bi bilo smiselno funkcije dati v svojo
-# datoteko, tukaj pa bi klicali tiste, ki jih potrebujemo v
-# 2. fazi. Seveda bi morali ustrezno datoteko uvoziti v prihodnjih
-# fazah.
+# shranjevanje tabel v mapo podatki
+write.csv(meseci, file="podatki/meseci.csv")
+write.csv(dnevi, file="podatki/dnevi.csv")
+write.csv(regije, file="podatki/regije.csv")
+write.csv(evropa, file="podatki/evropa.csv")
