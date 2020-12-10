@@ -1,52 +1,1324 @@
-"Živorojeni po starosti in izobrazbi matere ter vrstnem redu rojstva, Slovenija, letno"
-
-"STAROSTNE SKUPINE";"IZOBRAZBA MATERE";"2014 Prvo rojstvo";"2014 Drugo rojstvo";"2014 Tretje rojstvo ali veè";"2015 Prvo rojstvo";"2015 Drugo rojstvo";"2015 Tretje rojstvo ali veè";"2016 Prvo rojstvo";"2016 Drugo rojstvo";"2016 Tretje rojstvo ali veè";"2017 Prvo rojstvo";"2017 Drugo rojstvo";"2017 Tretje rojstvo ali veè";"2018 Prvo rojstvo";"2018 Drugo rojstvo";"2018 Tretje rojstvo ali veè"
-"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";22;5;1;31;7;3;35;10;2;33;12;0;26;9;4
-"Pod 20 let";"Osnovnošolska";127;25;3;107;9;4;77;17;4;79;18;0;64;17;6
-"Pod 20 let";"Nižja poklicna, srednja poklicna";21;1;0;22;0;0;22;0;0;18;1;0;16;5;0
-"Pod 20 let";"Srednja strokovna, srednja splošna";28;0;0;27;0;0;23;0;0;21;1;0;25;1;0
-"Pod 20 let";"Visokošolska 1. stopnje ipd.";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-"Pod 20 let";"Visokošolska 2. stopnje ipd.";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-"Pod 20 let";"Visokošolska 3. stopnje ipd.";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";63;32;9;81;33;4;80;31;5;62;33;14;92;33;12
-"20-24 let";"Osnovnošolska";202;108;38;206;110;39;169;96;41;167;106;44;127;85;37
-"20-24 let";"Nižja poklicna, srednja poklicna";227;99;19;202;92;14;217;82;7;229;99;10;249;114;11
-"20-24 let";"Srednja strokovna, srednja splošna";932;230;17;820;204;14;795;197;5;847;188;12;794;221;19
-"20-24 let";"Visokošolska 1. stopnje ipd.";222;29;2;264;35;3;241;30;1;228;43;3;227;28;1
-"20-24 let";"Visokošolska 2. stopnje ipd.";22;3;0;23;8;1;13;2;0;18;1;0;23;1;0
-"20-24 let";"Visokošolska 3. stopnje ipd.";2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";8;18;18;19;28;7;21;36;21;11;27;14;10;24;18
-"25-29 let";"Osnovnošolska";144;169;101;143;196;101;144;130;97;103;155;86;100;146;93
-"25-29 let";"Nižja poklicna, srednja poklicna";239;308;78;262;263;97;232;219;88;213;224;76;170;204;76
-"25-29 let";"Srednja strokovna, srednja splošna";1600;1003;144;1431;953;176;1286;905;187;1271;938;196;1135;915;167
-"25-29 let";"Visokošolska 1. stopnje ipd.";1132;533;57;1151;546;69;1166;646;59;1144;627;77;1082;577;75
-"25-29 let";"Visokošolska 2. stopnje ipd.";1040;466;50;949;398;63;959;418;50;852;361;55;835;349;46
-"25-29 let";"Visokošolska 3. stopnje ipd.";30;10;3;23;10;1;32;10;1;30;11;0;24;16;0
-"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";5;6;2;4;4;1;6;6;4;2;6;13;1;7;7
-"30-34 let";"Osnovnošolska";75;104;116;82;122;119;71;129;116;54;100;128;45;91;124
-"30-34 let";"Nižja poklicna, srednja poklicna";206;286;180;149;283;155;171;263;178;150;219;175;131;204;153
-"30-34 let";"Srednja strokovna, srednja splošna";861;922;328;807;944;331;705;796;335;660;903;330;663;888;346
-"30-34 let";"Visokošolska 1. stopnje ipd.";529;744;174;581;679;184;639;722;212;622;810;211;687;817;211
-"30-34 let";"Visokošolska 2. stopnje ipd.";1170;1229;330;1187;1243;333;1189;1218;315;1134;1233;313;1034;1105;310
-"30-34 let";"Visokošolska 3. stopnje ipd.";122;125;40;134;99;35;110;132;33;105;113;28;111;96;25
-"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";0;2;6;1;0;3;0;3;3;3;3;4;1;1;4
-"35-39 let";"Osnovnošolska";39;60;85;35;47;92;30;52;77;31;47;76;25;56;83
-"35-39 let";"Nižja poklicna, srednja poklicna";69;124;127;70;115;136;69;118;126;61;107;141;61;103;133
-"35-39 let";"Srednja strokovna, srednja splošna";256;378;249;262;363;228;256;335;215;218;316;237;247;370;228
-"35-39 let";"Visokošolska 1. stopnje ipd.";190;286;148;168;236;141;207;292;141;208;308;131;210;282;159
-"35-39 let";"Visokošolska 2. stopnje ipd.";344;505;308;356;519;269;390;527;277;367;610;306;392;541;337
-"35-39 let";"Visokošolska 3. stopnje ipd.";69;105;63;91;83;70;86;123;60;82;130;56;83;121;65
-"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";0;0;0;2;0;3;0;0;1;1;0;1;1;1;1
-"40-44 let";"Osnovnošolska";2;11;34;17;16;30;7;9;26;6;15;28;6;9;21
-"40-44 let";"Nižja poklicna, srednja poklicna";12;11;37;11;18;26;15;25;27;19;17;24;15;21;34
-"40-44 let";"Srednja strokovna, srednja splošna";46;36;58;46;55;50;52;50;74;47;55;68;44;50;59
-"40-44 let";"Visokošolska 1. stopnje ipd.";24;35;24;25;40;27;42;48;27;47;38;31;28;51;43
-"40-44 let";"Visokošolska 2. stopnje ipd.";51;51;55;53;64;60;53;77;67;84;94;54;82;71;67
-"40-44 let";"Visokošolska 3. stopnje ipd.";14;15;13;25;22;16;21;26;18;25;22;20;25;29;16
-"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
-"45+ let";"Osnovnošolska";1;0;1;0;0;0;0;1;4;1;1;0;0;0;1
-"45+ let";"Nižja poklicna, srednja poklicna";1;0;1;2;1;3;1;0;0;0;1;2;1;1;5
-"45+ let";"Srednja strokovna, srednja splošna";2;3;6;3;0;1;0;1;4;2;2;1;2;2;7
-"45+ let";"Visokošolska 1. stopnje ipd.";1;2;2;0;0;0;1;2;1;1;3;1;4;2;0
-"45+ let";"Visokošolska 2. stopnje ipd.";3;2;2;6;3;2;3;9;1;9;4;3;2;5;7
-"45+ let";"Visokošolska 3. stopnje ipd.";1;1;0;3;1;0;4;1;1;3;1;0;2;0;3
+"STAROSTNE SKUPINE";"IZOBRAZBA MATERE";"LETO";"VRSTNI RED ROJSTVA";Živorojeni
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";30
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";5
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";2
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";31
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";2
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";1
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";21
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";2
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";18
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";3
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";22
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";5
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";1
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";31
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";7
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";3
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";35
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";10
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";2
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";33
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";12
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";26
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";9
+"Pod 20 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";4
+"Pod 20 let";"Osnovnošolska";"2010";"Prvo rojstvo";124
+"Pod 20 let";"Osnovnošolska";"2010";"Drugo rojstvo";18
+"Pod 20 let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";1
+"Pod 20 let";"Osnovnošolska";"2011";"Prvo rojstvo";133
+"Pod 20 let";"Osnovnošolska";"2011";"Drugo rojstvo";20
+"Pod 20 let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";2
+"Pod 20 let";"Osnovnošolska";"2012";"Prvo rojstvo";127
+"Pod 20 let";"Osnovnošolska";"2012";"Drugo rojstvo";27
+"Pod 20 let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";4
+"Pod 20 let";"Osnovnošolska";"2013";"Prvo rojstvo";130
+"Pod 20 let";"Osnovnošolska";"2013";"Drugo rojstvo";17
+"Pod 20 let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";7
+"Pod 20 let";"Osnovnošolska";"2014";"Prvo rojstvo";127
+"Pod 20 let";"Osnovnošolska";"2014";"Drugo rojstvo";25
+"Pod 20 let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";3
+"Pod 20 let";"Osnovnošolska";"2015";"Prvo rojstvo";107
+"Pod 20 let";"Osnovnošolska";"2015";"Drugo rojstvo";9
+"Pod 20 let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";4
+"Pod 20 let";"Osnovnošolska";"2016";"Prvo rojstvo";77
+"Pod 20 let";"Osnovnošolska";"2016";"Drugo rojstvo";17
+"Pod 20 let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";4
+"Pod 20 let";"Osnovnošolska";"2017";"Prvo rojstvo";79
+"Pod 20 let";"Osnovnošolska";"2017";"Drugo rojstvo";18
+"Pod 20 let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Osnovnošolska";"2018";"Prvo rojstvo";64
+"Pod 20 let";"Osnovnošolska";"2018";"Drugo rojstvo";17
+"Pod 20 let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";6
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";28
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";4
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";1
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";29
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";10
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";17
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";21
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";1
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";22
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";22
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";18
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";1
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";16
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";5
+"Pod 20 let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";37
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";1
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";36
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";1
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";29
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";32
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";28
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";27
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";23
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";21
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";1
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";25
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";1
+"Pod 20 let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";0
+"Pod 20 let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";66
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";25
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";15
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";76
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";33
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";8
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";76
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";29
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";4
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";103
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";40
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";4
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";63
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";32
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";9
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";81
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";33
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";4
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";80
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";31
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";5
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";62
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";33
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";14
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";92
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";33
+"20-24 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";12
+"20-24 let";"Osnovnošolska";"2010";"Prvo rojstvo";275
+"20-24 let";"Osnovnošolska";"2010";"Drugo rojstvo";124
+"20-24 let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";40
+"20-24 let";"Osnovnošolska";"2011";"Prvo rojstvo";226
+"20-24 let";"Osnovnošolska";"2011";"Drugo rojstvo";99
+"20-24 let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";45
+"20-24 let";"Osnovnošolska";"2012";"Prvo rojstvo";200
+"20-24 let";"Osnovnošolska";"2012";"Drugo rojstvo";103
+"20-24 let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";43
+"20-24 let";"Osnovnošolska";"2013";"Prvo rojstvo";195
+"20-24 let";"Osnovnošolska";"2013";"Drugo rojstvo";109
+"20-24 let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";41
+"20-24 let";"Osnovnošolska";"2014";"Prvo rojstvo";202
+"20-24 let";"Osnovnošolska";"2014";"Drugo rojstvo";108
+"20-24 let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";38
+"20-24 let";"Osnovnošolska";"2015";"Prvo rojstvo";206
+"20-24 let";"Osnovnošolska";"2015";"Drugo rojstvo";110
+"20-24 let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";39
+"20-24 let";"Osnovnošolska";"2016";"Prvo rojstvo";169
+"20-24 let";"Osnovnošolska";"2016";"Drugo rojstvo";96
+"20-24 let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";41
+"20-24 let";"Osnovnošolska";"2017";"Prvo rojstvo";167
+"20-24 let";"Osnovnošolska";"2017";"Drugo rojstvo";106
+"20-24 let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";44
+"20-24 let";"Osnovnošolska";"2018";"Prvo rojstvo";127
+"20-24 let";"Osnovnošolska";"2018";"Drugo rojstvo";85
+"20-24 let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";37
+"20-24 let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";290
+"20-24 let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";117
+"20-24 let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";20
+"20-24 let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";302
+"20-24 let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";101
+"20-24 let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";12
+"20-24 let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";306
+"20-24 let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";100
+"20-24 let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";20
+"20-24 let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";262
+"20-24 let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";102
+"20-24 let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";17
+"20-24 let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";227
+"20-24 let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";99
+"20-24 let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";19
+"20-24 let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";202
+"20-24 let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";92
+"20-24 let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";14
+"20-24 let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";217
+"20-24 let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";82
+"20-24 let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";7
+"20-24 let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";229
+"20-24 let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";99
+"20-24 let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";10
+"20-24 let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";249
+"20-24 let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";114
+"20-24 let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";11
+"20-24 let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";1201
+"20-24 let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";224
+"20-24 let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";17
+"20-24 let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";1099
+"20-24 let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";238
+"20-24 let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";21
+"20-24 let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";1161
+"20-24 let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";247
+"20-24 let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";25
+"20-24 let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";1043
+"20-24 let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";223
+"20-24 let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";14
+"20-24 let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";932
+"20-24 let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";230
+"20-24 let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";17
+"20-24 let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";820
+"20-24 let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";204
+"20-24 let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";14
+"20-24 let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";795
+"20-24 let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";197
+"20-24 let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";5
+"20-24 let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";847
+"20-24 let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";188
+"20-24 let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";12
+"20-24 let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";794
+"20-24 let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";221
+"20-24 let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";19
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";142
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";20
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";150
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";30
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";1
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";165
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";23
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";2
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";217
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";26
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";4
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";222
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";29
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";2
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";264
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";35
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";3
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";241
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";30
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";1
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";228
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";43
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";3
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";227
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";28
+"20-24 let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";1
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";44
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";6
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";82
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";5
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";43
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";2
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";44
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";5
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";22
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";3
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";23
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";8
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";1
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";13
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";2
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";18
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";1
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";23
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";1
+"20-24 let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";1
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";2
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";0
+"20-24 let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";4
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";2
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";8
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";5
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";9
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";5
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";9
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";18
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";5
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";13
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";26
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";6
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";8
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";18
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";18
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";19
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";28
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";7
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";21
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";36
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";21
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";11
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";27
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";14
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";10
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";24
+"25-29 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";18
+"25-29 let";"Osnovnošolska";"2010";"Prvo rojstvo";185
+"25-29 let";"Osnovnošolska";"2010";"Drugo rojstvo";183
+"25-29 let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";113
+"25-29 let";"Osnovnošolska";"2011";"Prvo rojstvo";180
+"25-29 let";"Osnovnošolska";"2011";"Drugo rojstvo";176
+"25-29 let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";86
+"25-29 let";"Osnovnošolska";"2012";"Prvo rojstvo";159
+"25-29 let";"Osnovnošolska";"2012";"Drugo rojstvo";176
+"25-29 let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";92
+"25-29 let";"Osnovnošolska";"2013";"Prvo rojstvo";182
+"25-29 let";"Osnovnošolska";"2013";"Drugo rojstvo";153
+"25-29 let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";100
+"25-29 let";"Osnovnošolska";"2014";"Prvo rojstvo";144
+"25-29 let";"Osnovnošolska";"2014";"Drugo rojstvo";169
+"25-29 let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";101
+"25-29 let";"Osnovnošolska";"2015";"Prvo rojstvo";143
+"25-29 let";"Osnovnošolska";"2015";"Drugo rojstvo";196
+"25-29 let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";101
+"25-29 let";"Osnovnošolska";"2016";"Prvo rojstvo";144
+"25-29 let";"Osnovnošolska";"2016";"Drugo rojstvo";130
+"25-29 let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";97
+"25-29 let";"Osnovnošolska";"2017";"Prvo rojstvo";103
+"25-29 let";"Osnovnošolska";"2017";"Drugo rojstvo";155
+"25-29 let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";86
+"25-29 let";"Osnovnošolska";"2018";"Prvo rojstvo";100
+"25-29 let";"Osnovnošolska";"2018";"Drugo rojstvo";146
+"25-29 let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";93
+"25-29 let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";456
+"25-29 let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";443
+"25-29 let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";122
+"25-29 let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";377
+"25-29 let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";388
+"25-29 let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";107
+"25-29 let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";382
+"25-29 let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";344
+"25-29 let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";87
+"25-29 let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";298
+"25-29 let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";318
+"25-29 let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";90
+"25-29 let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";239
+"25-29 let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";308
+"25-29 let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";78
+"25-29 let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";262
+"25-29 let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";263
+"25-29 let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";97
+"25-29 let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";232
+"25-29 let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";219
+"25-29 let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";88
+"25-29 let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";213
+"25-29 let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";224
+"25-29 let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";76
+"25-29 let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";170
+"25-29 let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";204
+"25-29 let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";76
+"25-29 let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";1917
+"25-29 let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";1054
+"25-29 let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";170
+"25-29 let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";1712
+"25-29 let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";1063
+"25-29 let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";165
+"25-29 let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";1769
+"25-29 let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";1103
+"25-29 let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";190
+"25-29 let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";1631
+"25-29 let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";957
+"25-29 let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";169
+"25-29 let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";1600
+"25-29 let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";1003
+"25-29 let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";144
+"25-29 let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";1431
+"25-29 let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";953
+"25-29 let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";176
+"25-29 let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";1286
+"25-29 let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";905
+"25-29 let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";187
+"25-29 let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";1271
+"25-29 let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";938
+"25-29 let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";196
+"25-29 let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";1135
+"25-29 let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";915
+"25-29 let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";167
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";1082
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";475
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";55
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";791
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";433
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";33
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";740
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";385
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";45
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";991
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";457
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";43
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";1132
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";533
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";57
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";1151
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";546
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";69
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";1166
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";646
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";59
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";1144
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";627
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";77
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";1082
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";577
+"25-29 let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";75
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";1067
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";394
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";54
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";1356
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";532
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";57
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";1243
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";539
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";54
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";1145
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";493
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";55
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";1040
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";466
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";50
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";949
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";398
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";63
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";959
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";418
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";50
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";852
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";361
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";55
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";835
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";349
+"25-29 let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";46
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";31
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";15
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";3
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";45
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";14
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";34
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";8
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";3
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";21
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";10
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";30
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";10
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";3
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";23
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";10
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";1
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";32
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";10
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";1
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";30
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";11
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";24
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";16
+"25-29 let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";6
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";3
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";12
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";2
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";1
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";8
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";1
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";2
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";6
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";3
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";2
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";5
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";5
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";6
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";2
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";4
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";4
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";1
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";6
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";6
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";4
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";2
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";6
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";13
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";1
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";7
+"30-34 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";7
+"30-34 let";"Osnovnošolska";"2010";"Prvo rojstvo";105
+"30-34 let";"Osnovnošolska";"2010";"Drugo rojstvo";146
+"30-34 let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";134
+"30-34 let";"Osnovnošolska";"2011";"Prvo rojstvo";117
+"30-34 let";"Osnovnošolska";"2011";"Drugo rojstvo";142
+"30-34 let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";157
+"30-34 let";"Osnovnošolska";"2012";"Prvo rojstvo";80
+"30-34 let";"Osnovnošolska";"2012";"Drugo rojstvo";126
+"30-34 let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";128
+"30-34 let";"Osnovnošolska";"2013";"Prvo rojstvo";86
+"30-34 let";"Osnovnošolska";"2013";"Drugo rojstvo";117
+"30-34 let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";110
+"30-34 let";"Osnovnošolska";"2014";"Prvo rojstvo";75
+"30-34 let";"Osnovnošolska";"2014";"Drugo rojstvo";104
+"30-34 let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";116
+"30-34 let";"Osnovnošolska";"2015";"Prvo rojstvo";82
+"30-34 let";"Osnovnošolska";"2015";"Drugo rojstvo";122
+"30-34 let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";119
+"30-34 let";"Osnovnošolska";"2016";"Prvo rojstvo";71
+"30-34 let";"Osnovnošolska";"2016";"Drugo rojstvo";129
+"30-34 let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";116
+"30-34 let";"Osnovnošolska";"2017";"Prvo rojstvo";54
+"30-34 let";"Osnovnošolska";"2017";"Drugo rojstvo";100
+"30-34 let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";128
+"30-34 let";"Osnovnošolska";"2018";"Prvo rojstvo";45
+"30-34 let";"Osnovnošolska";"2018";"Drugo rojstvo";91
+"30-34 let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";124
+"30-34 let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";227
+"30-34 let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";411
+"30-34 let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";243
+"30-34 let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";197
+"30-34 let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";360
+"30-34 let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";206
+"30-34 let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";200
+"30-34 let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";358
+"30-34 let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";186
+"30-34 let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";194
+"30-34 let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";314
+"30-34 let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";183
+"30-34 let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";206
+"30-34 let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";286
+"30-34 let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";180
+"30-34 let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";149
+"30-34 let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";283
+"30-34 let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";155
+"30-34 let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";171
+"30-34 let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";263
+"30-34 let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";178
+"30-34 let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";150
+"30-34 let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";219
+"30-34 let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";175
+"30-34 let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";131
+"30-34 let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";204
+"30-34 let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";153
+"30-34 let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";910
+"30-34 let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";1183
+"30-34 let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";401
+"30-34 let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";820
+"30-34 let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";1062
+"30-34 let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";346
+"30-34 let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";915
+"30-34 let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";1104
+"30-34 let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";358
+"30-34 let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";871
+"30-34 let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";959
+"30-34 let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";327
+"30-34 let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";861
+"30-34 let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";922
+"30-34 let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";328
+"30-34 let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";807
+"30-34 let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";944
+"30-34 let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";331
+"30-34 let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";705
+"30-34 let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";796
+"30-34 let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";335
+"30-34 let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";660
+"30-34 let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";903
+"30-34 let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";330
+"30-34 let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";663
+"30-34 let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";888
+"30-34 let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";346
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";701
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";802
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";213
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";555
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";647
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";172
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";506
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";665
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";177
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";573
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";677
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";152
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";529
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";744
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";174
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";581
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";679
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";184
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";639
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";722
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";212
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";622
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";810
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";211
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";687
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";817
+"30-34 let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";211
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";1022
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";1034
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";292
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";1213
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";1282
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";341
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";1205
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";1373
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";348
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";1194
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";1271
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";297
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";1170
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";1229
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";330
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";1187
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";1243
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";333
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";1189
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";1218
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";315
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";1134
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";1233
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";313
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";1034
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";1105
+"30-34 let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";310
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";117
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";128
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";38
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";147
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";166
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";34
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";111
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";131
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";31
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";124
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";131
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";31
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";122
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";125
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";40
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";134
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";99
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";35
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";110
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";132
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";33
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";105
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";113
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";28
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";111
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";96
+"30-34 let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";25
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";5
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";2
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";2
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";0
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";6
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";4
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";0
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";2
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";6
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";0
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";0
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";3
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";4
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";1
+"35-39 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";4
+"35-39 let";"Osnovnošolska";"2010";"Prvo rojstvo";34
+"35-39 let";"Osnovnošolska";"2010";"Drugo rojstvo";66
+"35-39 let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";116
+"35-39 let";"Osnovnošolska";"2011";"Prvo rojstvo";54
+"35-39 let";"Osnovnošolska";"2011";"Drugo rojstvo";69
+"35-39 let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";113
+"35-39 let";"Osnovnošolska";"2012";"Prvo rojstvo";38
+"35-39 let";"Osnovnošolska";"2012";"Drugo rojstvo";63
+"35-39 let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";93
+"35-39 let";"Osnovnošolska";"2013";"Prvo rojstvo";53
+"35-39 let";"Osnovnošolska";"2013";"Drugo rojstvo";49
+"35-39 let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";82
+"35-39 let";"Osnovnošolska";"2014";"Prvo rojstvo";39
+"35-39 let";"Osnovnošolska";"2014";"Drugo rojstvo";60
+"35-39 let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";85
+"35-39 let";"Osnovnošolska";"2015";"Prvo rojstvo";35
+"35-39 let";"Osnovnošolska";"2015";"Drugo rojstvo";47
+"35-39 let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";92
+"35-39 let";"Osnovnošolska";"2016";"Prvo rojstvo";30
+"35-39 let";"Osnovnošolska";"2016";"Drugo rojstvo";52
+"35-39 let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";77
+"35-39 let";"Osnovnošolska";"2017";"Prvo rojstvo";31
+"35-39 let";"Osnovnošolska";"2017";"Drugo rojstvo";47
+"35-39 let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";76
+"35-39 let";"Osnovnošolska";"2018";"Prvo rojstvo";25
+"35-39 let";"Osnovnošolska";"2018";"Drugo rojstvo";56
+"35-39 let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";83
+"35-39 let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";82
+"35-39 let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";124
+"35-39 let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";150
+"35-39 let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";65
+"35-39 let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";122
+"35-39 let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";147
+"35-39 let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";63
+"35-39 let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";124
+"35-39 let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";131
+"35-39 let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";82
+"35-39 let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";118
+"35-39 let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";105
+"35-39 let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";69
+"35-39 let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";124
+"35-39 let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";127
+"35-39 let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";70
+"35-39 let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";115
+"35-39 let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";136
+"35-39 let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";69
+"35-39 let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";118
+"35-39 let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";126
+"35-39 let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";61
+"35-39 let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";107
+"35-39 let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";141
+"35-39 let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";61
+"35-39 let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";103
+"35-39 let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";133
+"35-39 let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";220
+"35-39 let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";331
+"35-39 let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";256
+"35-39 let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";240
+"35-39 let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";358
+"35-39 let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";243
+"35-39 let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";251
+"35-39 let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";379
+"35-39 let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";249
+"35-39 let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";248
+"35-39 let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";348
+"35-39 let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";197
+"35-39 let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";256
+"35-39 let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";378
+"35-39 let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";249
+"35-39 let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";262
+"35-39 let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";363
+"35-39 let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";228
+"35-39 let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";256
+"35-39 let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";335
+"35-39 let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";215
+"35-39 let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";218
+"35-39 let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";316
+"35-39 let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";237
+"35-39 let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";247
+"35-39 let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";370
+"35-39 let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";228
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";152
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";211
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";138
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";128
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";228
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";125
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";144
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";225
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";114
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";164
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";242
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";136
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";190
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";286
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";148
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";168
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";236
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";141
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";207
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";292
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";141
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";208
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";308
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";131
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";210
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";282
+"35-39 let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";159
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";269
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";426
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";288
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";290
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";484
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";283
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";319
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";522
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";273
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";315
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";480
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";275
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";344
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";505
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";308
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";356
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";519
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";269
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";390
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";527
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";277
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";367
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";610
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";306
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";392
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";541
+"35-39 let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";337
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";41
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";73
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";43
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";53
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";106
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";69
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";68
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";92
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";57
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";70
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";83
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";58
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";69
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";105
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";63
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";91
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";83
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";70
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";86
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";123
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";60
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";82
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";130
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";56
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";83
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";121
+"35-39 let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";65
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";3
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";2
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";2
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";3
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";0
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";1
+"40-44 let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";1
+"40-44 let";"Osnovnošolska";"2010";"Prvo rojstvo";7
+"40-44 let";"Osnovnošolska";"2010";"Drugo rojstvo";11
+"40-44 let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";33
+"40-44 let";"Osnovnošolska";"2011";"Prvo rojstvo";11
+"40-44 let";"Osnovnošolska";"2011";"Drugo rojstvo";15
+"40-44 let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";32
+"40-44 let";"Osnovnošolska";"2012";"Prvo rojstvo";9
+"40-44 let";"Osnovnošolska";"2012";"Drugo rojstvo";9
+"40-44 let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";34
+"40-44 let";"Osnovnošolska";"2013";"Prvo rojstvo";7
+"40-44 let";"Osnovnošolska";"2013";"Drugo rojstvo";5
+"40-44 let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";31
+"40-44 let";"Osnovnošolska";"2014";"Prvo rojstvo";2
+"40-44 let";"Osnovnošolska";"2014";"Drugo rojstvo";11
+"40-44 let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";34
+"40-44 let";"Osnovnošolska";"2015";"Prvo rojstvo";17
+"40-44 let";"Osnovnošolska";"2015";"Drugo rojstvo";16
+"40-44 let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";30
+"40-44 let";"Osnovnošolska";"2016";"Prvo rojstvo";7
+"40-44 let";"Osnovnošolska";"2016";"Drugo rojstvo";9
+"40-44 let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";26
+"40-44 let";"Osnovnošolska";"2017";"Prvo rojstvo";6
+"40-44 let";"Osnovnošolska";"2017";"Drugo rojstvo";15
+"40-44 let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";28
+"40-44 let";"Osnovnošolska";"2018";"Prvo rojstvo";6
+"40-44 let";"Osnovnošolska";"2018";"Drugo rojstvo";9
+"40-44 let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";21
+"40-44 let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";10
+"40-44 let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";11
+"40-44 let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";22
+"40-44 let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";6
+"40-44 let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";14
+"40-44 let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";28
+"40-44 let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";9
+"40-44 let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";22
+"40-44 let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";24
+"40-44 let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";12
+"40-44 let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";13
+"40-44 let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";29
+"40-44 let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";12
+"40-44 let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";11
+"40-44 let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";37
+"40-44 let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";11
+"40-44 let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";18
+"40-44 let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";26
+"40-44 let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";15
+"40-44 let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";25
+"40-44 let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";27
+"40-44 let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";19
+"40-44 let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";17
+"40-44 let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";24
+"40-44 let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";15
+"40-44 let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";21
+"40-44 let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";34
+"40-44 let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";35
+"40-44 let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";52
+"40-44 let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";53
+"40-44 let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";21
+"40-44 let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";33
+"40-44 let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";48
+"40-44 let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";45
+"40-44 let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";47
+"40-44 let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";52
+"40-44 let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";51
+"40-44 let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";56
+"40-44 let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";49
+"40-44 let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";46
+"40-44 let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";36
+"40-44 let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";58
+"40-44 let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";46
+"40-44 let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";55
+"40-44 let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";50
+"40-44 let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";52
+"40-44 let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";50
+"40-44 let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";74
+"40-44 let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";47
+"40-44 let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";55
+"40-44 let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";68
+"40-44 let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";44
+"40-44 let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";50
+"40-44 let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";59
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";16
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";13
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";31
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";23
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";21
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";26
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";18
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";32
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";24
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";15
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";33
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";23
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";24
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";35
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";24
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";25
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";40
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";27
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";42
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";48
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";27
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";47
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";38
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";31
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";28
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";51
+"40-44 let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";43
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";38
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";35
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";46
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";45
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";51
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";43
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";47
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";61
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";57
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";36
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";55
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";57
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";51
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";51
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";55
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";53
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";64
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";60
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";53
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";77
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";67
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";84
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";94
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";54
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";82
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";71
+"40-44 let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";67
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";10
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";9
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";10
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";11
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";16
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";11
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";11
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";15
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";14
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";19
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";14
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";13
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";14
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";15
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";13
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";25
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";22
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";16
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";21
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";26
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";18
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";25
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";22
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";20
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";25
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";29
+"40-44 let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";16
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2010";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2011";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2012";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2013";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2014";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2015";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2016";"Tretje rojstvo ali veè";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2017";"Tretje rojstvo ali veè";1
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Prvo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Drugo rojstvo";0
+"45+ let";"Brez izobrazbe, nepopolna osnovnošolska";"2018";"Tretje rojstvo ali veè";0
+"45+ let";"Osnovnošolska";"2010";"Prvo rojstvo";0
+"45+ let";"Osnovnošolska";"2010";"Drugo rojstvo";0
+"45+ let";"Osnovnošolska";"2010";"Tretje rojstvo ali veè";1
+"45+ let";"Osnovnošolska";"2011";"Prvo rojstvo";0
+"45+ let";"Osnovnošolska";"2011";"Drugo rojstvo";0
+"45+ let";"Osnovnošolska";"2011";"Tretje rojstvo ali veè";1
+"45+ let";"Osnovnošolska";"2012";"Prvo rojstvo";0
+"45+ let";"Osnovnošolska";"2012";"Drugo rojstvo";2
+"45+ let";"Osnovnošolska";"2012";"Tretje rojstvo ali veè";0
+"45+ let";"Osnovnošolska";"2013";"Prvo rojstvo";2
+"45+ let";"Osnovnošolska";"2013";"Drugo rojstvo";3
+"45+ let";"Osnovnošolska";"2013";"Tretje rojstvo ali veè";2
+"45+ let";"Osnovnošolska";"2014";"Prvo rojstvo";1
+"45+ let";"Osnovnošolska";"2014";"Drugo rojstvo";0
+"45+ let";"Osnovnošolska";"2014";"Tretje rojstvo ali veè";1
+"45+ let";"Osnovnošolska";"2015";"Prvo rojstvo";0
+"45+ let";"Osnovnošolska";"2015";"Drugo rojstvo";0
+"45+ let";"Osnovnošolska";"2015";"Tretje rojstvo ali veè";0
+"45+ let";"Osnovnošolska";"2016";"Prvo rojstvo";0
+"45+ let";"Osnovnošolska";"2016";"Drugo rojstvo";1
+"45+ let";"Osnovnošolska";"2016";"Tretje rojstvo ali veè";4
+"45+ let";"Osnovnošolska";"2017";"Prvo rojstvo";1
+"45+ let";"Osnovnošolska";"2017";"Drugo rojstvo";1
+"45+ let";"Osnovnošolska";"2017";"Tretje rojstvo ali veè";0
+"45+ let";"Osnovnošolska";"2018";"Prvo rojstvo";0
+"45+ let";"Osnovnošolska";"2018";"Drugo rojstvo";0
+"45+ let";"Osnovnošolska";"2018";"Tretje rojstvo ali veè";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2010";"Prvo rojstvo";2
+"45+ let";"Nižja poklicna, srednja poklicna";"2010";"Drugo rojstvo";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2010";"Tretje rojstvo ali veè";4
+"45+ let";"Nižja poklicna, srednja poklicna";"2011";"Prvo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2011";"Drugo rojstvo";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2011";"Tretje rojstvo ali veè";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2012";"Prvo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2012";"Drugo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2012";"Tretje rojstvo ali veè";2
+"45+ let";"Nižja poklicna, srednja poklicna";"2013";"Prvo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2013";"Drugo rojstvo";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2013";"Tretje rojstvo ali veè";3
+"45+ let";"Nižja poklicna, srednja poklicna";"2014";"Prvo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2014";"Drugo rojstvo";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2014";"Tretje rojstvo ali veè";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2015";"Prvo rojstvo";2
+"45+ let";"Nižja poklicna, srednja poklicna";"2015";"Drugo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2015";"Tretje rojstvo ali veè";3
+"45+ let";"Nižja poklicna, srednja poklicna";"2016";"Prvo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2016";"Drugo rojstvo";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2016";"Tretje rojstvo ali veè";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2017";"Prvo rojstvo";0
+"45+ let";"Nižja poklicna, srednja poklicna";"2017";"Drugo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2017";"Tretje rojstvo ali veè";2
+"45+ let";"Nižja poklicna, srednja poklicna";"2018";"Prvo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2018";"Drugo rojstvo";1
+"45+ let";"Nižja poklicna, srednja poklicna";"2018";"Tretje rojstvo ali veè";5
+"45+ let";"Srednja strokovna, srednja splošna";"2010";"Prvo rojstvo";0
+"45+ let";"Srednja strokovna, srednja splošna";"2010";"Drugo rojstvo";4
+"45+ let";"Srednja strokovna, srednja splošna";"2010";"Tretje rojstvo ali veè";0
+"45+ let";"Srednja strokovna, srednja splošna";"2011";"Prvo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2011";"Drugo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2011";"Tretje rojstvo ali veè";2
+"45+ let";"Srednja strokovna, srednja splošna";"2012";"Prvo rojstvo";4
+"45+ let";"Srednja strokovna, srednja splošna";"2012";"Drugo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2012";"Tretje rojstvo ali veè";3
+"45+ let";"Srednja strokovna, srednja splošna";"2013";"Prvo rojstvo";1
+"45+ let";"Srednja strokovna, srednja splošna";"2013";"Drugo rojstvo";0
+"45+ let";"Srednja strokovna, srednja splošna";"2013";"Tretje rojstvo ali veè";2
+"45+ let";"Srednja strokovna, srednja splošna";"2014";"Prvo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2014";"Drugo rojstvo";3
+"45+ let";"Srednja strokovna, srednja splošna";"2014";"Tretje rojstvo ali veè";6
+"45+ let";"Srednja strokovna, srednja splošna";"2015";"Prvo rojstvo";3
+"45+ let";"Srednja strokovna, srednja splošna";"2015";"Drugo rojstvo";0
+"45+ let";"Srednja strokovna, srednja splošna";"2015";"Tretje rojstvo ali veè";1
+"45+ let";"Srednja strokovna, srednja splošna";"2016";"Prvo rojstvo";0
+"45+ let";"Srednja strokovna, srednja splošna";"2016";"Drugo rojstvo";1
+"45+ let";"Srednja strokovna, srednja splošna";"2016";"Tretje rojstvo ali veè";4
+"45+ let";"Srednja strokovna, srednja splošna";"2017";"Prvo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2017";"Drugo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2017";"Tretje rojstvo ali veè";1
+"45+ let";"Srednja strokovna, srednja splošna";"2018";"Prvo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2018";"Drugo rojstvo";2
+"45+ let";"Srednja strokovna, srednja splošna";"2018";"Tretje rojstvo ali veè";7
+"45+ let";"Visokošolska 1. stopnje ipd.";"2010";"Prvo rojstvo";2
+"45+ let";"Visokošolska 1. stopnje ipd.";"2010";"Drugo rojstvo";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2010";"Tretje rojstvo ali veè";4
+"45+ let";"Visokošolska 1. stopnje ipd.";"2011";"Prvo rojstvo";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2011";"Drugo rojstvo";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2011";"Tretje rojstvo ali veè";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2012";"Prvo rojstvo";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2012";"Drugo rojstvo";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2012";"Tretje rojstvo ali veè";3
+"45+ let";"Visokošolska 1. stopnje ipd.";"2013";"Prvo rojstvo";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2013";"Drugo rojstvo";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2014";"Prvo rojstvo";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2014";"Drugo rojstvo";2
+"45+ let";"Visokošolska 1. stopnje ipd.";"2014";"Tretje rojstvo ali veè";2
+"45+ let";"Visokošolska 1. stopnje ipd.";"2015";"Prvo rojstvo";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2015";"Drugo rojstvo";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2015";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 1. stopnje ipd.";"2016";"Prvo rojstvo";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2016";"Drugo rojstvo";2
+"45+ let";"Visokošolska 1. stopnje ipd.";"2016";"Tretje rojstvo ali veè";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2017";"Prvo rojstvo";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2017";"Drugo rojstvo";3
+"45+ let";"Visokošolska 1. stopnje ipd.";"2017";"Tretje rojstvo ali veè";1
+"45+ let";"Visokošolska 1. stopnje ipd.";"2018";"Prvo rojstvo";4
+"45+ let";"Visokošolska 1. stopnje ipd.";"2018";"Drugo rojstvo";2
+"45+ let";"Visokošolska 1. stopnje ipd.";"2018";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 2. stopnje ipd.";"2010";"Prvo rojstvo";6
+"45+ let";"Visokošolska 2. stopnje ipd.";"2010";"Drugo rojstvo";4
+"45+ let";"Visokošolska 2. stopnje ipd.";"2010";"Tretje rojstvo ali veè";3
+"45+ let";"Visokošolska 2. stopnje ipd.";"2011";"Prvo rojstvo";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2011";"Drugo rojstvo";1
+"45+ let";"Visokošolska 2. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 2. stopnje ipd.";"2012";"Prvo rojstvo";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2012";"Drugo rojstvo";1
+"45+ let";"Visokošolska 2. stopnje ipd.";"2012";"Tretje rojstvo ali veè";3
+"45+ let";"Visokošolska 2. stopnje ipd.";"2013";"Prvo rojstvo";1
+"45+ let";"Visokošolska 2. stopnje ipd.";"2013";"Drugo rojstvo";4
+"45+ let";"Visokošolska 2. stopnje ipd.";"2013";"Tretje rojstvo ali veè";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2014";"Prvo rojstvo";3
+"45+ let";"Visokošolska 2. stopnje ipd.";"2014";"Drugo rojstvo";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2014";"Tretje rojstvo ali veè";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2015";"Prvo rojstvo";6
+"45+ let";"Visokošolska 2. stopnje ipd.";"2015";"Drugo rojstvo";3
+"45+ let";"Visokošolska 2. stopnje ipd.";"2015";"Tretje rojstvo ali veè";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2016";"Prvo rojstvo";3
+"45+ let";"Visokošolska 2. stopnje ipd.";"2016";"Drugo rojstvo";9
+"45+ let";"Visokošolska 2. stopnje ipd.";"2016";"Tretje rojstvo ali veè";1
+"45+ let";"Visokošolska 2. stopnje ipd.";"2017";"Prvo rojstvo";9
+"45+ let";"Visokošolska 2. stopnje ipd.";"2017";"Drugo rojstvo";4
+"45+ let";"Visokošolska 2. stopnje ipd.";"2017";"Tretje rojstvo ali veè";3
+"45+ let";"Visokošolska 2. stopnje ipd.";"2018";"Prvo rojstvo";2
+"45+ let";"Visokošolska 2. stopnje ipd.";"2018";"Drugo rojstvo";5
+"45+ let";"Visokošolska 2. stopnje ipd.";"2018";"Tretje rojstvo ali veè";7
+"45+ let";"Visokošolska 3. stopnje ipd.";"2010";"Prvo rojstvo";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2010";"Drugo rojstvo";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2010";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2011";"Prvo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2011";"Drugo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2011";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2012";"Prvo rojstvo";2
+"45+ let";"Visokošolska 3. stopnje ipd.";"2012";"Drugo rojstvo";2
+"45+ let";"Visokošolska 3. stopnje ipd.";"2012";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2013";"Prvo rojstvo";2
+"45+ let";"Visokošolska 3. stopnje ipd.";"2013";"Drugo rojstvo";2
+"45+ let";"Visokošolska 3. stopnje ipd.";"2013";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2014";"Prvo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2014";"Drugo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2014";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2015";"Prvo rojstvo";3
+"45+ let";"Visokošolska 3. stopnje ipd.";"2015";"Drugo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2015";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2016";"Prvo rojstvo";4
+"45+ let";"Visokošolska 3. stopnje ipd.";"2016";"Drugo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2016";"Tretje rojstvo ali veè";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2017";"Prvo rojstvo";3
+"45+ let";"Visokošolska 3. stopnje ipd.";"2017";"Drugo rojstvo";1
+"45+ let";"Visokošolska 3. stopnje ipd.";"2017";"Tretje rojstvo ali veè";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2018";"Prvo rojstvo";2
+"45+ let";"Visokošolska 3. stopnje ipd.";"2018";"Drugo rojstvo";0
+"45+ let";"Visokošolska 3. stopnje ipd.";"2018";"Tretje rojstvo ali veè";3
