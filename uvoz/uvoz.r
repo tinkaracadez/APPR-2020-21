@@ -49,28 +49,21 @@ regije <- stran %>%
     ) %>%
   fill(leto) %>%
   drop_na(rojeni) %>%
-  drop_na(regija)
+  drop_na(regija) %>% 
+  data.frame()
+
+regije$rojeni <- gsub("\\.", "", regije$rojeni)
+
+regije$rojeni <- as.numeric(regije$rojeni)
    
 # urejena tabela za rojene v evropskih državah (Excel)
 evropa <- read_xlsx("podatki/St_rojenih_EU.xlsx",
                     sheet="Sheet 1",
                     skip=9,
                     n_max=48,
-                    na=c("", " ", ":")) %>%
-  select(-"...3", -"...5", -"...7", -"...9", -"...11", -"...13", -"...15", -"...17", -"...19", -"...21") %>%
-  rename(
-    drzava=1,
-    "2009"="...2",
-    "2010"="...4",
-    "2011"="...6",
-    "2012"="...8",
-    "2013"="...10",
-    "2014"="...12",
-    "2015"="...14",
-    "2016"="...16",
-    "2017"="...18",
-    "2018"="...20"
-    ) %>%
+                    na=c("", " ", ":")) %>% select(-seq(3,21, by = 2)) 
+colnames(evropa) <- c("drzava", 2009:2018)
+evropa <- evropa %>%
   mutate(
     drzava=str_replace(drzava, "\\(.*\\)", "")
   ) %>%
