@@ -1,6 +1,3 @@
-source("lib/uvozi.zemljevid.r", encoding="Windows-1250")
-source("lib/libraries.r", encoding="Windows-1250")
-
 SIreg <- uvozi.zemljevid("https://biogeo.ucdavis.edu/data/gadm3.6/shp/gadm36_SVN_shp.zip",
                               "gadm36_SVN_1", encoding="UTF-8") 
 
@@ -63,24 +60,22 @@ SIreg_zdr2018 %>%
     ) +
   labs(title="Število rojenih otrok v letu 2018 za posamezne slovenske regije") +
   geom_text(data=koord, aes(x=V1, y=V2, label=regija), size=2.5) +
-  brez.ozadja +
-  ggsave("regije2018.pdf", device="pdf")
+  brez.ozadja 
 
 # primerjava števila živorojenih otrok v regijah z najvišjo in najnižjo vrednostjo
 
 v <- c("Zasavska", "Primorsko-notranjska", "Osrednjeslovenska", "Podravska")
-regije$leto <- as.numeric(regije$leto)
 
 graf.reg <- ggplot(data=regije %>%
                      filter(regija %in% v),
                    aes(x=leto, y=rojeni, color=regija)) +
   geom_line(size=1) +
+  xlab("Leto") +
   ylab("Število rojenih otrok") +
   scale_x_continuous(breaks=2009:2018) +
   labs(title="Število rojenih otrok v štirih slovenskih regijah") +
-  theme_bw()
-
-# print(graf.reg)
+  guides(color=guide_legend(title="Regija:")) +
+  theme_bw() 
 
 # primerjava števila živorojenih otrok v nekaterih evropskih državah
 
@@ -91,9 +86,11 @@ graf.evr <- ggplot(data=evropa %>%
                      filter(drzava %in% u),
                    aes(x=leto, y=rojeni, color=drzava)) +
   geom_line(size=1) +
+  xlab("Leto") +
   ylab("Število rojenih otrok") +
   scale_x_continuous(breaks=2009:2018) +
   labs(title="Število rojenih otrok v šestih evropskih državah") +
+  guides(color=guide_legend(title="Država:")) +
   theme_bw()
 
 # primerjava števila rojstev po mesecih
@@ -108,8 +105,6 @@ graf.mes <- ggplot(data=meseci %>%
   #scale_x_continuous(breaks=waiver()) +
   labs(title="Število rojenih otrok po mesecih za štiri leta") +
   theme_bw()
-
-print(graf.mes)
 
 
 

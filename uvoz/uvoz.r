@@ -1,5 +1,3 @@
-source("lib/libraries.r", encoding="Windows-1250")
-
 # urejena tabela za rojene po mesecih
 meseci <- read_csv2("podatki/St_rojenih_SLO_meseci.csv",
                   locale=locale(encoding="cp1250")) %>%
@@ -39,17 +37,16 @@ regije <- stran %>%
   mutate(
     leto=regija,
     leto=gsub("^\\D", NA, leto),
-    rojeni=gsub("[a-z]", NA, rojeni)
+    rojeni=gsub("[a-z]", NA, rojeni),
+    rojeni=gsub("\\.", "", rojeni),
+    rojeni=as.numeric(rojeni),
+    leto=as.numeric(leto)
     ) %>%
   fill(leto) %>%
   drop_na(rojeni) %>%
   drop_na(regija) %>% 
   data.frame()
 
-regije$rojeni <- gsub("\\.", "", regije$rojeni)
-
-regije$rojeni <- as.numeric(regije$rojeni)
-   
 # urejena tabela za rojene v evropskih državah (Excel)
 evropa <- read_xlsx("podatki/St_rojenih_EU.xlsx",
                     sheet="Sheet 1",
