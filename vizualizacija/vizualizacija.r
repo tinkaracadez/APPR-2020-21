@@ -1,16 +1,8 @@
-library(tmap)
-library(dplyr)
-library(ggplot2)
-library(rgdal)
-library(RColorBrewer)
-library(emojifont)
-library(tidyr)
-
 source("lib/uvozi.zemljevid.r", encoding="Windows-1250")
 source("lib/libraries.r", encoding="Windows-1250")
 
 SIreg <- uvozi.zemljevid("https://biogeo.ucdavis.edu/data/gadm3.6/shp/gadm36_SVN_shp.zip",
-                              "gadm36_SVN_1", encoding="Windows-1250")
+                              "gadm36_SVN_1", encoding="UTF-8") 
 
 koordinate <- coordinates(SIreg) %>% as_tibble() 
 
@@ -20,12 +12,9 @@ SIreg_fort <- SIreg %>%
 
 SIreg_fort <- SIreg_fort %>%
   mutate(
-    NAME_1=str_replace(NAME_1, "GoriĹˇka", "Goriška"),
-    NAME_1=str_replace(NAME_1, "KoroĹˇka", "Koroška"),
-    NAME_1=str_replace(NAME_1, "Notranjsko-kraĹˇka", "Primorsko-notranjska"),
-    NAME_1=str_replace(NAME_1, "Obalno-kraĹˇka", "Obalno-kraška"),
+    NAME_1=str_replace(NAME_1, "Notranjsko-kraška", "Primorsko-notranjska"),
     NAME_1=str_replace(NAME_1, "Spodnjeposavska", "Posavska"))
-
+    
 SIreg_fort <- SIreg_fort %>%
   rename(regija=NAME_1)
 
@@ -54,8 +43,8 @@ koord <- koordinate %>%
 
 # zemljevid števila živorojenih otrok v regijah za leto 2018
 
-SIreg_zdr2018 <- SIreg_zdr %>% filter(leto=="2018") 
-SIreg_zdr2018 %>% mutate(rojeni=as.numeric(rojeni))
+SIreg_zdr2018 <- SIreg_zdr %>% filter(leto=="2018") %>% 
+  mutate(rojeni=as.numeric(rojeni))
 brks <- quantile(SIreg_zdr2018$rojeni, seq(0,1,1/5))
 
 legendaLabele <- paste(as.integer(brks[1:5]), as.integer(brks[2:6]), sep="-")
@@ -73,7 +62,7 @@ SIreg_zdr2018 %>%
     name=legendaNaslov
     ) +
   labs(title="Število rojenih otrok v letu 2018 za posamezne slovenske regije") +
-  geom_text(data=imena.regij, aes(x=V1, y=V2, label=ime), size=2.5) +
+  geom_text(data=koord, aes(x=V1, y=V2, label=regija), size=2.5) +
   brez.ozadja +
   ggsave("regije2018.pdf", device="pdf")
 

@@ -1,10 +1,4 @@
-require(readr)
-require(dplyr)
-require(tidyr)
-require(readxl)
-require(openxlsx)
-require(rvest)
-require(stringr)
+source("lib/libraries.r", encoding="Windows-1250")
 
 # urejena tabela za rojene po mesecih
 meseci <- read_csv2("podatki/St_rojenih_SLO_meseci.csv",
