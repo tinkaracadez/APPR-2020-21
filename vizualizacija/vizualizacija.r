@@ -15,6 +15,10 @@ SIreg_fort <- SIreg_fort %>%
 SIreg_fort <- SIreg_fort %>%
   rename(regija=NAME_1)
 
+regije <- regije %>% mutate(
+  rojeni=gsub("\\.", "", rojeni),
+  rojeni=as.numeric(rojeni))
+
 SIreg_zdr <- inner_join(regije, SIreg_fort, by="regija")
 
 brez.ozadja <- theme_bw() +
@@ -42,19 +46,19 @@ koord <- koordinate %>%
 
 SIreg_zdr2018 <- SIreg_zdr %>% filter(leto=="2018") %>% 
   mutate(rojeni=as.numeric(rojeni))
-brks <- quantile(SIreg_zdr2018$rojeni, seq(0,1,1/5))
+brks <- quantile(SIreg_zdr2018$rojeni, seq(0,1,1/8))
 
-legendaLabele <- paste(as.integer(brks[1:5]), as.integer(brks[2:6]), sep="-")
+legendaLabele <- paste(as.integer(brks[1:8]), as.integer(brks[2:9]), sep="-")
 legendaNaslov <- "Število rojenih otrok"
 
-SIreg_zdr2018 %>%
+zem.reg <- SIreg_zdr2018 %>%
   mutate(
     kvantil=factor(findInterval(SIreg_zdr2018$rojeni, brks, all.inside=TRUE))
     ) %>%
   ggplot() +
   geom_polygon(aes(x=long, y=lat, group=group, fill=kvantil), color="black", size=0.001) +
   scale_fill_brewer(
-    type=6, palette="Reds",
+    type=9, palette="Reds",
     labels=legendaLabele,
     name=legendaNaslov
     ) +
@@ -95,17 +99,36 @@ graf.evr <- ggplot(data=evropa %>%
 
 # primerjava števila rojstev po mesecih
 
-w <- c("2009","2012", "2015", "2018")
-
-graf.mes <- ggplot(data=meseci %>%
-                     filter(leto %in% w),
-                   aes(x=mesec, y=rojeni, color=leto)) +
+graf.mes <- ggplot(data=meseci,
+                   aes(x=leto, y=rojeni, color=mesec)) +
   geom_line(size=1) +
+  xlab("Leto") +
   ylab("Število rojenih otrok") +
-  #scale_x_continuous(breaks=waiver()) +
-  labs(title="Število rojenih otrok po mesecih za štiri leta") +
+  scale_x_continuous(breaks=2009:2018) +
+  labs(title="Število rojenih otrok v posameznih mesecih") +
+  guides(color=guide_legend(title="Mesec:")) +
   theme_bw()
 
+# število rojstev v Evropi za leti 2009 in 2018
+
+w <- c("Ukraine", "San Marino", "Russia", "Moldova", "Kosovo ", "Bosnia and Herzegovina", "Albania", "Liechtenstein", "Andorra")
+
+graf.evr2 <- ggplot(evropa %>%
+                      filter(leto %in% c("2009", "2018")) %>%
+                      filter(!(drzava %in% w)),
+                    aes(x=rojeni, y=reorder(drzava, -rojeni), fill=factor(leto))) +
+  geom_col(position="dodge") +
+  labs(title="Število rojenih otrok v evropskih državah za leti 2009 in 2018") +
+  xlab("Število otrok") +
+  ylab("Država") +
+  geom_vline(mapping=aes(xintercept=mean(evropa %>% filter(leto==2018) %>% filter(!(drzava %in% w)) %>% .$rojeni,
+                                         fill="Povprecje 2018")),
+             col="indianred2") +
+  geom_vline(mapping=aes(xintercept=mean(evropa %>% filter(leto==2009) %>% filter(!(drzava %in% w)) %>% .$rojeni,
+                                         fill="Povprecje 2009")),
+             col="cadetblue3") +
+  scale_fill_manual(values=c("cadetblue3", "indianred2")) +
+  theme_bw()
 
 
 
