@@ -31,7 +31,7 @@ Analizirala bom rodnost oziroma število živorojenih otrok v Sloveniji in jo pr
 source("uvoz/uvoz.R", encoding="UTF-8")
 ```
 
-Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu. Večina jih je v obliki CSV, ena pa v obliki HTML. Urejeni podatki so shranjeni v štirih tabelah.
+Podatke sem pridobila na statističnem uradu Republike Slovenije, na Eurostatu in na Wikipediji. Dve sta bili v obliki CSV, dve pa v obliki HTML. Urejeni podatki so shranjeni v štirih tabelah.
 
 1. `evropa` - podatki o številu rojstev za evropske države
   - `drzava` - spremenljivka: ime države (niz),
@@ -44,17 +44,15 @@ Podatke sem pridobila na statističnem uradu Republike Slovenije in na Eurostatu
   - `mesec` - spremenljivka: ime meseca (niz),
   - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen mesec določenega leta (število).
 
-3. `dnevi` - podatki o številu živorojenih otrok po dnevih v mesecih v obdobju 2014-2018 za Slovenijo
-  - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
-  - `mesec` - spremenljivka: zaporedna številka meseca (število),
-  - `dan` - spremenljivka: dan v mesecu (število),
-  - `rojeni` - meritev: število živorojenih otrok v Sloveniji na določen dan določenega meseca v letih 2009-2018 (število).
   
-4. `regije` - podatki o številu živorojenih otrok po statističnih regijah med letoma 2009 in 2018 za Slovenijo
+3. `regije` - podatki o številu živorojenih otrok po statističnih regijah med letoma 2009 in 2018 za Slovenijo
   - `leto` - spremenljivka: leto v obdobju 2009-2018 (število),
   - `regija` - spremenljivka: ime statistične regije (niz),
   - `rojeni` - meritev: število živorojenih otrok v statistični regiji v določenem letu (število).
 
+4. `povrsine` - podatki o površinah evropskih držav 
+  - `drzava` - spremenljivka: ime države (niz),
+  - `povrsina` - meritev: površina evropske države v km^2 (število).
 
 # Analiza in vizualizacija podatkov
 
@@ -74,14 +72,14 @@ Graf spodaj prikazuje število živorojenih rojenih otrok v nekaterih slovenskih
 print(graf.reg)
 ```
 
-Podoben prikaz kot za slovenske regije sem želela narediti še za evropske države. Tudi tu sem v graf vključila tiste države, ki bolj odstopajo od povprečja. Zaradi pomanjkanja podatkov sem izpustila Rusijo (ki ima sicer daleč najvišje število rojenih otrok) in Andoro (zelo majhne vrednosti), zaradi boljše preglednosti pa tudi Turčijo, ki je prav tako dosegala zelo velike številke. Vidi se, da je največje število rojstev skozi celotno desetletje dosegala Francija, zelo blizu pa je tudi Velika Britanija. Gre za precej veliki državi, zato me podatek ne preseneča. Najmanjše vrednosti je dosegel Lihtenštajn (zelo majhna država) in Estonija, ki ima precej podobne vrednosti kot Slovenija. Hrvaška pa ima dokaj višje število rojenih otrok, saj je tudi precej večja. Razlike med spodnjimi državami bi bile mnogo bolj razvidne, če bi bile prikazane v ločenem grafu. 
-Tudi tu pa je lepo razviden padec števila rojenih otrok.
+Podoben prikaz kot za slovenske regije sem želela narediti še za evropske države. Tudi tu sem v graf vključila tiste države, ki bolj odstopajo od povprečja. Namesto števila rojenih otrok na splošno sem dodala stolpec s številom otrok na km^2. Od vseh držav je najbolj izstopala Turčija (okrog 53 otrok na km^2), ki je zaradi preglednosti nisem vključila v graf. Veliko otrok je bilo glede na površino rojenih tudi v Gruziji in Azerbaijanu, a je bilo podatkov zelo malo. Presenetile so me velike vrednosti Malte, ki je sicer zelo majhna država. Podobno velja za San Marino, a so tudi tu podatki zelo pomanjkljivi. Slovenija se vrti nekje v povprečju, ki sicer znaša med 1 in 3 otroci na km^2. Daleč najmanjše vrednosti dosega Islandija, sledijo pa ji ostale skandinavske države, ki so si med seboj zelo podobne. 
+Tudi tu pa je razviden, a v precej manjši meri, padec števila rojenih otrok. To pa ne velja za Malto, ki ji je število rpjenih otrok celo naraščalo.
 
 ```{r graf2, fig.align='center'}
 print(graf.evr)
 ```
 
-Število živorojenih otrok sem želela prikazati še malo drugače, da se lepše vidi primerjava med vsemi državami. Spet sem jih zaradi pomanjkanja podatkov morala nekaj izpustiti (Ukrajina, San Marino, Rusija, Moldavija, Kosovo, Bosna in Hercegovina, Albanija, Lihtenštajn in Andora). Primerjala sem število rojenih otrok v obeh mejah obravnavanega obdobja. Tu se vidi prednjačenje Turčije in izredno manjše številke pri manjših državah. Spet se vidi padec števila rojstev v večini držav. Z navpičnimi črtami sem ponazorila še povprečji za obe leti.
+Število živorojenih otrok sem želela prikazati še malo drugače, da se lepše vidi primerjava med vsemi državami. Spet sem jih zaradi pomanjkanja podatkov morala nekaj izpustiti (Ukrajina, San Marino, Rusija, Moldavija, Kosovo, Bosna in Hercegovina, Albanija, Lihtenštajn in Andora). Primerjala sem število rojenih otrok v obeh mejah obravnavanega obdobja. Tu se vidi prednjačenje Turčije in izredno manjše številke predvsem pri severnih državah. Spet se vidi padec števila rojstev v večini držav. Z navpičnimi črtami sem ponazorila še povprečji za obe leti.
 
 ```{r graf3, fig.align='center'}
 print(graf.evr2)
