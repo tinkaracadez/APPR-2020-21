@@ -83,17 +83,20 @@ graf.reg <- ggplot(data=regije %>%
 
 # primerjava števila živorojenih otrok v nekaterih evropskih državah
 
-u <- c("France", "United Kingdom", "Liechtenstein", "Estonia", "Croatia", "Slovenia")
-evropa$leto <- as.numeric(evropa$leto)
+EUpovrs <- inner_join(evropa, povrsine, by="drzava")
 
-graf.evr <- ggplot(data=evropa %>%
+u <- c("Malta", "Iceland", "Netherlands", "Finland", "France", "Slovenia", "Luxembourg", "United Kingdom")
+EUpovrs$leto <- as.numeric(EUpovrs$leto)
+EUpovrs <- EUpovrs %>% mutate(gostota=rojeni/povrsina)
+
+graf.evr <- ggplot(data=EUpovrs %>%
                      filter(drzava %in% u),
-                   aes(x=leto, y=rojeni, color=drzava)) +
+                   aes(x=leto, y=gostota, color=drzava)) +
   geom_line(size=1) +
   xlab("Leto") +
-  ylab("Število rojenih otrok") +
+  ylab("Število rojenih otrok na km\u00B2") +
   scale_x_continuous(breaks=2009:2018) +
-  labs(title="Število rojenih otrok v šestih evropskih državah") +
+  labs(title="Število rojenih otrok na km\u00B2 v osmih evropskih državah") +
   guides(color=guide_legend(title="Država:")) +
   theme_bw()
 
@@ -113,19 +116,18 @@ graf.mes <- ggplot(data=meseci,
 
 w <- c("Ukraine", "San Marino", "Russia", "Moldova", "Kosovo ", "Bosnia and Herzegovina", "Albania", "Liechtenstein", "Andorra")
 
-graf.evr2 <- ggplot(evropa %>%
+graf.evr2 <- ggplot(EUpovrs %>%
                       filter(leto %in% c("2009", "2018")) %>%
                       filter(!(drzava %in% w)),
-                    aes(x=rojeni, y=reorder(drzava, -rojeni), fill=factor(leto))) +
+                    aes(x=gostota, y=reorder(drzava, -gostota), fill=factor(leto))) +
   geom_col(position="dodge") +
-  labs(title="Število rojenih otrok v evropskih državah za leti 2009 in 2018") +
-  xlab("Število otrok") +
+  labs(title="Število rojenih otrok na km\u00B2 v evropskih državah za leti 2009 in 2018") +
+  xlab("Število otrok na km\u00B2") +
   ylab("Država") +
-  geom_vline(mapping=aes(xintercept=mean(evropa %>% filter(leto==2018) %>% filter(!(drzava %in% w)) %>% .$rojeni,
-                                         fill="Povprecje 2018")),
+  guides(fill=guide_legend(title="Leto:")) +
+  geom_vline(mapping=aes(xintercept=mean(EUpovrs %>% filter(leto==2018) %>% filter(!(drzava %in% w)) %>% .$gostota)),
              col="indianred2") +
-  geom_vline(mapping=aes(xintercept=mean(evropa %>% filter(leto==2009) %>% filter(!(drzava %in% w)) %>% .$rojeni,
-                                         fill="Povprecje 2009")),
+  geom_vline(mapping=aes(xintercept=mean(EUpovrs %>% filter(leto==2009) %>% filter(!(drzava %in% w)) %>% .$gostota)),
              col="cadetblue3") +
   scale_fill_manual(values=c("cadetblue3", "indianred2")) +
   theme_bw()
