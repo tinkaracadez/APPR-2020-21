@@ -64,6 +64,24 @@ evropa <- evropa %>%
     values_to="rojeni"
   )
 
+# tabela s površinami evropskih držav
+url <- "https://en.wikipedia.org/wiki/List_of_European_countries_by_area"
+
+stran2 <- read_html(url, locale=locale(encoding="cp1250"))
+povrsine <- stran2 %>%
+  html_nodes(xpath="//table") %>%
+  .[[1]] %>%
+  html_table() %>%
+  select(c(2,3)) %>% 
+  rename(
+    drzava=1,
+    povrsina=2
+  ) %>% 
+  mutate(
+    drzava=str_replace(drzava, "\\*", ""),
+    povrsina=parse_number(povrsina)
+  ) %>% View
+
 # shranjevanje tabel v mapo podatki
 write.csv(meseci, file="podatki/meseci.csv")
 write.csv(dnevi, file="podatki/dnevi.csv")
