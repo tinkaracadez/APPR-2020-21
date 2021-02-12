@@ -66,8 +66,8 @@ evropa <- evropa %>%
 
 # tabela s površinami evropskih držav
 url <- "https://en.wikipedia.org/wiki/List_of_European_countries_by_area"
-
 stran2 <- read_html(url, locale=locale(encoding="cp1250"))
+
 povrsine <- stran2 %>%
   html_nodes(xpath="//table") %>%
   .[[1]] %>%
@@ -79,11 +79,16 @@ povrsine <- stran2 %>%
   ) %>% 
   mutate(
     drzava=str_replace(drzava, "\\*", ""),
-    povrsina=parse_number(povrsina)
-  ) %>% View
+    povrsina=parse_number(povrsina),
+    drzava=str_replace(drzava, "Czech Republic", "Czechia"),
+    drzava=str_replace(drzava, "Germany", "Germany "),
+    drzava=str_replace(drzava, "Kosovo", "Kosovo ")
+    ) %>% 
+  data.frame()
 
 # shranjevanje tabel v mapo podatki
 write.csv(meseci, file="podatki/meseci.csv")
 write.csv(dnevi, file="podatki/dnevi.csv")
 write.csv(regije, file="podatki/regije.csv")
 write.csv(evropa, file="podatki/evropa.csv")
+write.csv(povrsine, file="podatki/povrsine.csv")
