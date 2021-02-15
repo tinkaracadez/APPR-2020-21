@@ -1,24 +1,49 @@
 library(shiny)
 
 shinyServer(function(input, output) {
-  output$druzine <- DT::renderDataTable({
-    druzine %>% pivot_wider(names_from="velikost.druzine", values_from="stevilo.druzin") %>%
-      rename(`Občina`=obcina)
+  output$evropa <- renderPlot({
+    ggplot(EUpovrs %>%
+             filter(drzava == input$evropa)
+           ) +
+      aes(x=leto, y=gostota) +
+      geom_point(size=2, color="lightblue4") +
+      geom_line(size=2, color="red4") +
+      xlab("Leto") +
+      ylab("Število rojenih otrok na km\u00B2") +
+      scale_x_continuous(breaks=2009:2018) +
+      theme_bw() +
+      theme(axis.text.x=element_text(angle=45, hjust=1)) 
   })
-  
-  output$pokrajine <- renderUI(
-    selectInput("pokrajina", label="Izberi pokrajino",
-                choices=c("Vse", levels(obcine$pokrajina)))
-  )
-  output$naselja <- renderPlot({
-    main <- "Pogostost števila naselij"
-    if (!is.null(input$pokrajina) && input$pokrajina %in% levels(obcine$pokrajina)) {
-      t <- obcine %>% filter(pokrajina == input$pokrajina)
-      main <- paste(main, "v regiji", input$pokrajina)
-    } else {
-      t <- obcine
-    }
-    ggplot(t, aes(x=naselja)) + geom_histogram() +
-      ggtitle(main) + xlab("Število naselij") + ylab("Število občin")
+  output$regije <- renderPlot({
+    ggplot(regije %>%
+             filter(leto == input$regije)
+           ) +
+      aes(x=regija, y=rojeni) +
+      geom_col(position="dodge") +
+      xlab("Regija") +
+      ylab("Število rojenih otrok") +
+      #ylim(0, 1000) +
+      theme_bw() +
+      theme(axis.text.x=element_text(angle=45, hjust=1))
+  })
+  # napoved za evropske države (linearna regresija)
+  output$napoved <- renderPlot({
+    podatki <- EUpovrs %>%
+      filter(drzava == input$napoved)
+    
+    quadratic <- lm(data=podatki, gostota ~ I(leto))
+    leta <- data.frame(leto=seq(2019, 2025, 1))
+    prediction <- mutate(leta, gostota=predict(quadratic, leta))
+    
+    ggplot(podatki) +
+      aes(x=leto, y=gostota) +
+      geom_smooth(method="lm", fullrange=TRUE, color="red4", formula=y ~ x) +
+      geom_point(size=2, color="royalblue4") +
+      geom_point(data=prediction %>% filter(leto >= 2019), color="green4", size=3) +
+      scale_x_continuous('Leto', breaks=seq(2009, 2025, 1), limits=c(2009, 2025)) +
+      ylab("Število rojenih otrok na km\u00B2") +
+      theme_bw() +
+      theme(axis.text.x=element_text(angle=45, hjust=1))
   })
 })
+
