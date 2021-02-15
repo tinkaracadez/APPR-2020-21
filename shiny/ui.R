@@ -8,14 +8,14 @@ shinyUI(fluidPage(
                            label="Izberi leto",
                            choices=unique(regije$leto))),
              mainPanel(plotOutput("regije"))),
-    tabPanel("evropske države",
+    tabPanel("Evropske države",
              sidebarPanel(
                selectInput(inputId="evropa",
                            label="Izberi državo",
                            choices=unique(EUpovrs$drzava),
                            selected=unique(EUpovrs$drzava)[24])),
              mainPanel(plotOutput("evropa"))),
-    tabPanel("Napoved za Evropske države",
+    tabPanel("Napoved za evropske države",
              sidebarPanel(
                selectInput(inputId="napoved",
                            label="Izberi državo",
