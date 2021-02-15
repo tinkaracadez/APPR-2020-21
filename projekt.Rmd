@@ -99,7 +99,7 @@ print(graf.mes)
 
 # Napredna analiza podatkov
 
-Kar se tiče napredne analize, sem želela **napovedati** gibanje števila rojenih otrok glede na površino za **evropske države**. V zadnjem zavihku *shiny* aplikacije je tako prikazana pričakovana rast oziroma padec za naslednjih nekaj let. Videti je, da bo v večini držav glede na pretekle podatke število rojstev upadlo, ponekod pa je pričakovana celo rast (npr. na Malti).
+Kar se tiče napredne analize, sem želela **napovedati** gibanje števila rojenih otrok glede na površino za **evropske države**. V zadnjem zavihku *shiny* aplikacije je tako prikazana pričakovana rast oziroma padec za naslednjih nekaj let. Videti je, da bo v večini držav glede na pretekle podatke število rojstev upadlo, ponekod pa je pričakovana celo rast (npr. na Malti). Vseeno pa v večini držav padec najbrž ne bo tako drastičen, kot prikazuje premica.
 V prvem zavihku sem natančneje prikazala gibanje deleža rojstev v Sloveniji glede na **posamezne statistične regije**. Opazim, da se skozi leta delež ne spreminja bistveno. 
 Drugi zavihek pa je namenjen prikazu gibanja rojstev za **posamezne evropske države** skozi zadnje desetletje, vendar so za nekatere države grafi zaradi pomanjkanja podatkov nepopolni.
 
