@@ -34,7 +34,7 @@ Za boljši prikaz bom pri vizualizaciji podatkov za evropske države dodala še 
 # Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz}
-source("uvoz/uvoz.R", encoding="UTF-8")
+source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
 Podatke sem pridobila na statističnem uradu Republike Slovenije, na Eurostatu in na Wikipediji. Pri izdelavi projekta sem uporabila štiri tabele, dve sta bili v obliki CSV, dve pa v obliki HTML. Urejeni podatki so shranjeni v naslednjih tabelah:
