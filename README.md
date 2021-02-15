@@ -17,7 +17,6 @@ Rodnost v Sloveniji oz. število živorojenih otrok bom analizirala glede na:
 
 * statistično regijo
 * mesec rojstva
-* dan rojstva
 
 Z ostalimi evropskimi državami pa bom nato primerjala le samo število rojstev živorojenih otrok (za obdobje 10 let).
 Tu bom navedla:
@@ -28,7 +27,8 @@ Tu bom navedla:
     
 #### Cilji: 
 
-V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v posameznih regijah, katera regija jih je imela največ v vsakem letu in kakšno je povprečje v obravnavanem obdobju. Prav tako bom ugotavljala, katerega meseca je bilo v posameznih letih rojenih največ otrok in kako je s tem v povprečju v obravnavanem obdobju. Izpostavila bom, kateri so tisti dnevi, ko je bilo rojenih največ otrok. Na koncu pa bom samo število živorojenih otrok v Sloveniji primerjala s številom le-teh v ostalih evropskih državah in na ta način ugotovila, v kateri državi je bilo največ rojstev ter izračunala, kakšno je bilo maksimalno, minimalno in povprečno število rojstev po državah v zadnjem desetjetju.
+V okviru projekta bom najprej ugotovila, koliko otrok je bilo letno rojenih v posameznih regijah, katera regija jih je imela največ v vsakem letu in kakšno je povprečje v obravnavanem obdobju. Prav tako bom ugotavljala, katerega meseca je bilo v posameznih letih rojenih največ otrok in kako je s tem v povprečju v obravnavanem obdobju. 
+Na koncu pa bom samo število živorojenih otrok v Sloveniji primerjala s številom le-teh v ostalih evropskih državah in na ta način ugotovila, v kateri državi je bilo največ rojstev ter izračunala, kakšno je bilo maksimalno, minimalno in povprečno število rojstev po državah v zadnjem desetjetju.
 
 
 #### Podatki: 
