@@ -97,9 +97,17 @@ print(graf.mes)
 
 # Napredna analiza podatkov
 
-Kar se tiče napredne analize, sem želela **napovedati** gibanje števila rojenih otrok glede na površino za **evropske države**. V zadnjem zavihku *shiny* aplikacije je tako prikazana pričakovana rast oziroma padec za naslednjih nekaj let. Videti je, da bo v večini držav glede na pretekle podatke število rojstev upadlo, ponekod pa je pričakovana celo rast (npr. na Malti). Vseeno pa v večini držav padec najbrž ne bo tako drastičen, kot prikazuje premica.
-V prvem zavihku sem natančneje prikazala gibanje deleža rojstev v Sloveniji glede na **posamezne statistične regije**. Opazim, da se skozi leta delež ne spreminja bistveno. 
+Kar se tiče napredne analize, sem želela **napovedati** gibanje števila rojenih otrok glede na površino za **Slovenijo** in kasneje s pomočjo *Shiny* aplikacije še za ostale evropske države. 
+Spodnji graf prikazuje, da naj bi se, glede na podatke preteklega desetletja, v naslednjih nekaj letih število rojstev **še naprej zmanjševalo**. Menim, da bo do neke mere to držalo, vseeno pa se število ne more zmanjševati v nedogled. Glede na to, da graf napoveduje le vrednosti za naslednjih nekaj let, je napoved še vedno precej relevantna, za daljše obdobje pa bi verjetno bile predvidene prenizke vrednosti.
+
+```{r graf5, fig.align='center'}
+print(graf.napoved)
+```
+
+V zadnjem zavihku *shiny* aplikacije sem podobno **napoved** prikazala še za ostale **evropske države**.Vidna je pričakovana rast oziroma padec števila rojstev glede na površino za naslednjih nekaj let. Videti je, da bo v večini držav, podobno kot v Sloveniji, glede na pretekle podatke število rojstev **upadlo**, ponekod pa je pričakovana celo **rast** (npr. na Malti). Vseeno pa v večini držav padec najbrž ne bo tako drastičen, kot prikazuje premica.
+V prvem zavihku aplikacije sem natančneje prikazala gibanje deleža rojstev v Sloveniji glede na **posamezne statistične regije**. Opazim, da se skozi leta delež ne spreminja bistveno. 
 Drugi zavihek pa je namenjen prikazu gibanja rojstev za **posamezne evropske države** skozi zadnje desetletje, vendar so za nekatere države grafi zaradi pomanjkanja podatkov nepopolni.
+
 
 ```{r shiny, echo=FALSE}
 shinyAppDir("shiny", options=list(width="100%", height=600))

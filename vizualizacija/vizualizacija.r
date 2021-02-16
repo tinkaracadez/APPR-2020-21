@@ -102,6 +102,8 @@ graf.evr <- ggplot(data=EUpovrs %>%
 
 # primerjava števila rojstev po mesecih
 
+meseci$mesec <- factor(meseci$mesec, levels = unique(meseci$mesec))
+
 graf.mes <- ggplot(data=meseci,
                    aes(x=leto, y=rojeni, color=mesec)) +
   geom_line(size=1) +
@@ -132,6 +134,25 @@ graf.evr2 <- ggplot(EUpovrs %>%
   scale_fill_manual(values=c("cadetblue3", "indianred2")) +
   theme_bw(base_size=20)
 
+# napoved števila rojstev za Slovenijo
+
+quadratic <- lm(data=EUpovrs %>% filter(drzava=="Slovenia"), gostota ~ I(leto))
+leta <- data.frame(leto=seq(2019, 2025, 1))
+prediction <- mutate(leta, gostota=predict(quadratic, leta))
+
+graf.napoved <- ggplot(EUpovrs %>%
+         filter(drzava == "Slovenia")) +
+  aes(x=leto, y=gostota) +
+  geom_smooth(method="lm", fullrange=TRUE, color="red4", formula=y ~ x) +
+  geom_point(size=2, color="royalblue4") +
+  geom_point(data=prediction %>% filter(leto >= 2019), color="green4", size=3) +
+  scale_x_continuous('Leto', breaks=seq(2009, 2025, 1), limits=c(2009, 2025)) +
+  labs(title="Napoved števila rojenih otrok na km\u00B2 v Sloveniji do leta 2025") +
+  ylab("Število rojenih otrok na km\u00B2") +
+  theme_bw(base_size=20) +
+  theme(axis.text.x=element_text(angle=45, hjust=1),
+        axis.title.x = element_text(vjust=-4),
+        axis.title.y = element_text(vjust=5))
 
 
 
