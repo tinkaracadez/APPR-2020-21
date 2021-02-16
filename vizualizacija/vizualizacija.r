@@ -88,13 +88,62 @@ graf.reg <- ggplot(data=regije %>%
 
 EUpovrs <- inner_join(evropa, povrsine, by="drzava")
 
+slovar <- c("Belgium"="Belgija",
+            "Bulgaria"="Bolgarija",
+            "Czechia"="Češka",
+            "Denmark"="Danska",
+            "Germany "="Nemčija",
+            "Estonia"="Estonija",
+            "Ireland"="Irska",
+            "Greece"="Grčija",
+            "Spain"="Španija",
+            "France"="Francija",
+            "Croatia"="Hrvaška",
+            "Italy"="Italija",
+            "Cyprus"="Ciper",
+            "Latvia"="Latvija",
+            "Lithuania"="Litva",
+            "Luxembourg"="Luksemburg",
+            "Hungary"="Madžarska",
+            "Malta"="Malta",
+            "Netherlands"="Nizozemska",
+            "Austria"="Avstrija",              
+            "Poland"="Poljska",
+            "Portugal"="Portugalska",
+            "Romania"="Romunija",
+            "Slovenia"="Slovenija",
+            "Slovakia"="Slovaška",
+            "Finland"="Finska",
+            "Sweden"="Švedska",
+            "United Kingdom"="Velika Britanija",        
+            "Iceland"="Islandija",
+            "Liechtenstein"="Lihtenštajn",
+            "Norway"="Norveška",
+            "Switzerland"="Švica",           
+            "Montenegro"="Črna gora",
+            "North Macedonia"="Severna Makedonija",
+            "Albania"="Albanija",
+            "Serbia"="Srbija",                
+            "Turkey"="Turčija",
+            "Andorra"="Andora",
+            "Belarus"="Belorusija",
+            "Bosnia and Herzegovina"="Bosna in Hercegovina",
+            "Kosovo "="Kosovo",
+            "Moldova"="Moldavija",
+            "Russia"="Rusija",
+            "San Marino"="San Marino",
+            "Ukraine"="Ukrajina",
+            "Armenia"="Armenija",
+            "Azerbaijan"="Azerbajdžan",
+            "Georgia"="Gruzija")
+
 u <- c("Malta", "Iceland", "Netherlands", "Finland", "France", "Slovenia", "Luxembourg", "United Kingdom")
 EUpovrs$leto <- as.numeric(EUpovrs$leto)
 EUpovrs <- EUpovrs %>% mutate(gostota=rojeni/povrsina)
 
 graf.evr <- ggplot(data=EUpovrs %>%
                      filter(drzava %in% u),
-                   aes(x=leto, y=gostota, color=drzava)) +
+                   aes(x=leto, y=gostota, color=slovar[drzava])) +
   geom_line(size=1) +
   xlab("Leto") +
   ylab("Število rojenih otrok na km\u00B2") +
@@ -124,7 +173,7 @@ w <- c("Ukraine", "San Marino", "Russia", "Moldova", "Kosovo ", "Bosnia and Herz
 graf.evr2 <- ggplot(EUpovrs %>%
                       filter(leto %in% c("2009", "2018")) %>%
                       filter(!(drzava %in% w)),
-                    aes(x=gostota, y=reorder(drzava, -gostota), fill=factor(leto))) +
+                    aes(x=gostota, y=reorder(slovar[drzava], -gostota), fill=factor(leto))) +
   geom_col(position="dodge") +
   labs(title="Število rojenih otrok na km\u00B2 v evropskih državah za leti 2009 in 2018") +
   xlab("Število otrok na km\u00B2") +
