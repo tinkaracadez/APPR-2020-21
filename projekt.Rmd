@@ -104,7 +104,7 @@ Spodnji graf prikazuje, da naj bi se, glede na podatke preteklega desetletja, v 
 print(graf.napoved)
 ```
 
-V zadnjem zavihku *shiny* aplikacije sem podobno **napoved** prikazala še za ostale **evropske države**.Vidna je pričakovana rast oziroma padec števila rojstev glede na površino za naslednjih nekaj let. Videti je, da bo v večini držav, podobno kot v Sloveniji, glede na pretekle podatke število rojstev **upadlo**, ponekod pa je pričakovana celo **rast** (npr. na Malti). Vseeno pa v večini držav padec najbrž ne bo tako drastičen, kot prikazuje premica.
+V zadnjem zavihku *Shiny* aplikacije sem podobno **napoved** prikazala še za ostale **evropske države**.Vidna je pričakovana rast oziroma padec števila rojstev glede na površino za naslednjih nekaj let. Videti je, da bo v večini držav, podobno kot v Sloveniji, glede na pretekle podatke število rojstev **upadlo**, ponekod pa je pričakovana celo **rast** (npr. na Malti). Vseeno pa v večini držav padec najbrž ne bo tako drastičen, kot prikazuje premica.
 V prvem zavihku aplikacije sem natančneje prikazala gibanje deleža rojstev v Sloveniji glede na **posamezne statistične regije**. Opazim, da se skozi leta delež ne spreminja bistveno. 
 Drugi zavihek pa je namenjen prikazu gibanja rojstev za **posamezne evropske države** skozi zadnje desetletje, vendar so za nekatere države grafi zaradi pomanjkanja podatkov nepopolni.
 
