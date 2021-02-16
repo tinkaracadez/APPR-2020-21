@@ -64,7 +64,10 @@ zem.reg <- SIreg_zdr2018 %>%
     ) +
   labs(title="Število rojenih otrok v letu 2018 za posamezne slovenske regije") +
   geom_text(data=koord, aes(x=V1, y=V2, label=regija), size=6) +
-  brez.ozadja 
+  brez.ozadja +
+  theme(plot.title=element_text(size=20),
+        legend.title=element_text(size=20),
+        legend.text=element_text(size=20))
 
 # primerjava števila živorojenih otrok v regijah z najvišjo in najnižjo vrednostjo
 
