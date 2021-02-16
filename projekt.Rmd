@@ -112,4 +112,4 @@ Drugi zavihek pa je namenjen prikazu gibanja rojstev za **posamezne evropske dr≈
 ```{r shiny, echo=FALSE}
 shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
-***
+
