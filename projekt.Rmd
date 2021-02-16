@@ -10,8 +10,6 @@ output:
 runtime: shiny
 ---
 
-![](slike/RStudio.png)
-
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 

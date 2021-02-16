@@ -63,7 +63,7 @@ zem.reg <- SIreg_zdr2018 %>%
     name=legendaNaslov
     ) +
   labs(title="Število rojenih otrok v letu 2018 za posamezne slovenske regije") +
-  geom_text(data=koord, aes(x=V1, y=V2, label=regija), size=2.5) +
+  geom_text(data=koord, aes(x=V1, y=V2, label=regija), size=6) +
   brez.ozadja 
 
 # primerjava števila živorojenih otrok v regijah z najvišjo in najnižjo vrednostjo
@@ -78,8 +78,8 @@ graf.reg <- ggplot(data=regije %>%
   ylab("Število rojenih otrok") +
   scale_x_continuous(breaks=2009:2018) +
   labs(title="Število rojenih otrok v štirih slovenskih regijah") +
-  guides(color=guide_legend(title="Regija:")) +
-  theme_bw() 
+  guides(color=guide_legend(title="Regija")) +
+  theme_bw(base_size=20) 
 
 # primerjava števila živorojenih otrok v nekaterih evropskih državah
 
@@ -97,8 +97,8 @@ graf.evr <- ggplot(data=EUpovrs %>%
   ylab("Število rojenih otrok na km\u00B2") +
   scale_x_continuous(breaks=2009:2018) +
   labs(title="Število rojenih otrok na km\u00B2 v osmih evropskih državah") +
-  guides(color=guide_legend(title="Država:")) +
-  theme_bw()
+  guides(color=guide_legend(title="Država")) +
+  theme_bw(base_size=20)
 
 # primerjava števila rojstev po mesecih
 
@@ -109,8 +109,8 @@ graf.mes <- ggplot(data=meseci,
   ylab("Število rojenih otrok") +
   scale_x_continuous(breaks=2009:2018) +
   labs(title="Število rojenih otrok v posameznih mesecih") +
-  guides(color=guide_legend(title="Mesec:")) +
-  theme_bw()
+  guides(color=guide_legend(title="Mesec")) +
+  theme_bw(base_size=20)
 
 # število rojstev v Evropi za leti 2009 in 2018
 
@@ -124,13 +124,13 @@ graf.evr2 <- ggplot(EUpovrs %>%
   labs(title="Število rojenih otrok na km\u00B2 v evropskih državah za leti 2009 in 2018") +
   xlab("Število otrok na km\u00B2") +
   ylab("Država") +
-  guides(fill=guide_legend(title="Leto:")) +
+  guides(fill=guide_legend(title="Leto")) +
   geom_vline(mapping=aes(xintercept=mean(EUpovrs %>% filter(leto==2018) %>% filter(!(drzava %in% w)) %>% .$gostota)),
              col="indianred2") +
   geom_vline(mapping=aes(xintercept=mean(EUpovrs %>% filter(leto==2009) %>% filter(!(drzava %in% w)) %>% .$gostota)),
              col="cadetblue3") +
   scale_fill_manual(values=c("cadetblue3", "indianred2")) +
-  theme_bw()
+  theme_bw(base_size=20)
 
 
 

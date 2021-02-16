@@ -12,7 +12,9 @@ shinyServer(function(input, output) {
       ylab("Število rojenih otrok na km\u00B2") +
       scale_x_continuous(breaks=2009:2018) +
       theme_bw() +
-      theme(axis.text.x=element_text(angle=45, hjust=1)) 
+      theme(axis.text.x=element_text(angle=45, hjust=1),
+            axis.title.x = element_text(vjust=-5),
+            axis.title.y = element_text(vjust=5)) 
   })
   output$regije <- renderPlot({
     ggplot(regije %>%
@@ -24,7 +26,9 @@ shinyServer(function(input, output) {
       ylab("Število rojenih otrok") +
       #ylim(0, 1000) +
       theme_bw() +
-      theme(axis.text.x=element_text(angle=45, hjust=1))
+      theme(axis.text.x=element_text(angle=45, hjust=1), 
+            axis.title.x = element_text(vjust=-2.5),
+            axis.title.y = element_text(vjust=5))
   })
   # napoved za evropske države (linearna regresija)
   output$napoved <- renderPlot({
@@ -43,7 +47,9 @@ shinyServer(function(input, output) {
       scale_x_continuous('Leto', breaks=seq(2009, 2025, 1), limits=c(2009, 2025)) +
       ylab("Število rojenih otrok na km\u00B2") +
       theme_bw() +
-      theme(axis.text.x=element_text(angle=45, hjust=1))
+      theme(axis.text.x=element_text(angle=45, hjust=1),
+            axis.title.x = element_text(vjust=-5),
+            axis.title.y = element_text(vjust=5))
   })
 })
 
