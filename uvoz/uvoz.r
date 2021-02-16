@@ -9,7 +9,7 @@ dnevi <- read_csv2("podatki/St_rojenih_SLO_dnevi.csv",
                    na=c("", " ", "-")) %>%
   rename(mesec=MESEC, dan="DAN V MESECU", rojeni="Živorojeni") %>%
   drop_na(rojeni) %>%
-  mutate(
+  mutate( 
     leto=mesec
   ) %>%
   .[c(4,1,2,3)] %>%
@@ -63,6 +63,7 @@ evropa <- evropa %>%
     names_to="leto",
     values_to="rojeni"
   )
+
 
 # tabela s površinami evropskih držav
 url <- "https://en.wikipedia.org/wiki/List_of_European_countries_by_area"
